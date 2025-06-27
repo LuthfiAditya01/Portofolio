@@ -180,7 +180,7 @@ export default function Index() {
         </div>
         <div className="mt-8 lg:mt-4 text-slate-300">
           Let's View all of my Project <br />
-          <a href="project.html" className="hero-btn inline-block font-semibold py-3 px-6 rounded-lg transition duration-300 mt-4">shall we?</a>
+          <Link to={"/project"} className="hero-btn inline-block font-semibold py-3 px-6 rounded-lg transition duration-300 mt-4">shall we?</Link>
         </div>
       </div>
     </section>
