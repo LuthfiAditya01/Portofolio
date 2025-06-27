@@ -11,7 +11,7 @@ export default function ScrollToTopLink({ children, to, ...props }: ScrollToTopL
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: 'smooth'
+      behavior: "instant"
     });
     
     // Jika ada onClick handler lain, jalankan juga

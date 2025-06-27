@@ -31,7 +31,7 @@ function AppContent() {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: 'smooth' // Animasi scroll halus
+      behavior: 'instant' // Animasi scroll halus
     });
   }, [location.pathname]);
 
@@ -113,7 +113,7 @@ function AppContent() {
             {/* <!-- Copyright --> */}
             <div className="text-center">
               <p className="text-slate-400 text-lg">&copy; 2025 <span className="font-bold text-blue-400">Luthfi Aditya</span>. All Rights Reserved.</p>
-              <p className="text-slate-500 text-sm mt-2">Made with <span className="text-red-400">❤️</span> and lots of <span className="text-yellow-400">☕</span></p>
+              <p className="text-slate-500 text-sm mt-2">Made with <span className="text-red-400">❤️ from <Link to={"https://x.com/H_EliJKT48"}>Helisma</Link> </span> and lots of <span className="text-yellow-400">☕</span></p>
             </div>
           </div>
         </footer>
