@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import NotFound from "./404";
 import Metatags from "./utils/metatags";
 import About from "./about";
+import Project from "./project";
 // import Project from "./project";
 
 function AppContent() {
@@ -21,7 +22,7 @@ function AppContent() {
   }, []);
 
     // Daftar route yang MENAMPILKAN footer
-  const routesWithFooter = ['/', '/about']; // Hanya route ini yang tampil footer
+  const routesWithFooter = ['/', '/about', '/project']; // Hanya route ini yang tampil footer
   
   // Cek apakah route saat ini termasuk yang menampilkan footer
   const shouldShowFooter = routesWithFooter.includes(location.pathname);
@@ -92,10 +93,10 @@ function AppContent() {
           path="/about"
           element={<About />}
         />
-        {/* <Route
+        <Route
           path="/project"
-          element={""}
-        /> */}
+          element={<Project />}
+        />
       </Routes>
 
 
