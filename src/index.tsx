@@ -25,9 +25,6 @@ export default function Index() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  const openCV = () => {
-    window.open("./Curriculum Vitae_Luthfi Aditya.pdf", "_blank");
-  };
   return (
     <>
       {/* // <!-- Enhanced hero section --> */}
