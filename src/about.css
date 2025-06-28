@@ -189,7 +189,7 @@
   /* Profile Image Enhancement */
   .profile-image {
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(56, 189, 248, 0.3);
+    box-shadow: 0 0px 40px rgba(56, 189, 248, 0.3);
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;

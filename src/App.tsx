@@ -67,6 +67,18 @@ function AppContent() {
         <div className="floating-shape"></div>
         <div className="floating-shape"></div>
       </div>
+              <div className="particles">
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+          <div className="particle"></div>
+        </div>
       <Routes>
         <Route
           path="/"
