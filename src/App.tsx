@@ -102,7 +102,7 @@ function AppContent() {
 
       {/* Footer hanya ditampilkan di route tertentu */}
       {shouldShowFooter && (
-        <footer data-aos="fade-down" data-aos-delay="500" className="relative z-10 py-16 mt-20">
+        <footer data-aos="fade-down" data-aos-delay="500" className="relative z-10 py-16">
           <div className="container mx-auto px-6">
             {/* <!-- Social Links --> */}
             <div className="flex justify-center space-x-8 mb-8">
@@ -126,7 +126,7 @@ function AppContent() {
             {/* <!-- Copyright --> */}
             <div className="text-center">
               <p className="text-slate-400 text-lg">&copy; 2025 <span className="font-bold text-blue-400">Luthfi Aditya</span>. All Rights Reserved.</p>
-              <p className="text-slate-500 text-sm mt-2">Made with <span className="text-red-400">❤️ from <Link to={"https://x.com/H_EliJKT48"}>Helisma</Link> </span> and lots of <span className="text-yellow-400">☕</span></p>
+              <p className="text-slate-500 text-sm mt-2">Made with <span className="text-red-400">❤️ from <a href={"https://x.com/H_EliJKT48"} target="_blank">Helisma</a> </span> and lots of <span className="text-yellow-400">☕</span></p>
             </div>
           </div>
         </footer>

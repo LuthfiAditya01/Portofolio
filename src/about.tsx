@@ -94,6 +94,7 @@ export default function About() {
                   src="./foto-profil.png"
                   className="w-full h-auto rounded-lg"
                   alt="Luthfi Aditya Profile"
+                  loading="eager"
                 />
               </div>
             </div>

@@ -231,7 +231,7 @@ export default function Index() {
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
-                    src="/api/placeholder/400/320"
+                    src="public/project/mentally.png"
                     alt="Proyek 1"
                     className="w-full h-full object-cover"
                   />
@@ -246,7 +246,7 @@ export default function Index() {
                   <a
                     href="https://youtu.be/1yEdsNHTWZo?si=m5_UfoDv10J0-0sW"
                     className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
-                    Lihat Proyek
+                    Lihat Demo
                   </a>
                 </div>
               </div>
@@ -259,7 +259,7 @@ export default function Index() {
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
-                    src="/api/placeholder/400/320"
+                    src="/public/project/esr.jpeg"
                     alt="Proyek 2"
                     className="w-full h-full object-cover"
                   />
@@ -289,7 +289,7 @@ export default function Index() {
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
-                    src="/api/placeholder/400/320"
+                    src="/public/project/sip-sj.jpeg"
                     alt="Proyek 3"
                     className="w-full h-full object-cover"
                   />
