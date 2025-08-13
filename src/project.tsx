@@ -46,7 +46,7 @@ export default function project(){
         <div data-aos="fade-left" data-aos-delay="500" className="timeline-item right">
           <div className="project-card shadow-md">
             <div className="image-container w-full h-48">
-              <img src="/public/project/mentally.png" alt="Mental.ly App" className="w-full h-full object-cover" />
+              <img src="public/project/mentally.png" alt="Mental.ly App" className="w-full h-full object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Mental.ly</h3>
@@ -73,7 +73,7 @@ export default function project(){
         <div data-aos="fade-right" data-aos-delay="500" className="timeline-item left">
           <div className="project-card shadow-md">
             <div className="image-container w-full h-48">
-              <img src="/public/project/portofolio.png" alt="Portfolio Website" className="w-full h-full object-cover" />
+              <img src="public/project/portofolio.png" alt="Portfolio Website" className="w-full h-full object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Portofolio</h3>
@@ -170,7 +170,7 @@ export default function project(){
         <div data-aos="fade-right" data-aos-delay="500" className="timeline-item left">
           <div className="project-card shadow-md">
             <div className="image-container w-full h-48">
-              <img src="/public/project/sip-sj.jpeg" alt="SIP-SJ Posyandu System" className="w-full h-full object-cover" />
+              <img src="public/project/sip-sj.jpeg" alt="SIP-SJ Posyandu System" className="w-full h-full object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">SIP-SJ (SISTEM INFORMASI POSYANDU SEPUTIH JAYA)</h3>
@@ -192,7 +192,7 @@ export default function project(){
         <div data-aos="fade-left" data-aos-delay="500" className="timeline-item right">
           <div className="project-card shadow-md">
             <div className="image-container w-full h-48">
-              <img src="/public/project/fla-o-krezz.png" alt="Fla-O-Krezz Website" className="w-full h-full object-cover" />
+              <img src="public/project/fla-o-krezz.png" alt="Fla-O-Krezz Website" className="w-full h-full object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Fla-O-Krezz</h3>
@@ -215,7 +215,7 @@ export default function project(){
         <div data-aos="fade-right" data-aos-delay="500" className="timeline-item left">
           <div className="project-card shadow-md">
             <div className="image-container w-full h-48">
-              <img src="/public/project/portofolio.png" alt="Updated Portfolio" className="w-full h-full object-cover" />
+              <img src="public/project/portofolio.png" alt="Updated Portfolio" className="w-full h-full object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Portofolio (Updated)</h3>
@@ -239,7 +239,7 @@ export default function project(){
         <div data-aos="fade-left" data-aos-delay="500" className="timeline-item right">
           <div className="project-card shadow-md">
             <div className="image-container w-full h-48">
-              <img src="/public/project/nibras.png" alt="Mental.ly App" className="w-full h-full object-cover" />
+              <img src="public/project/nibras.png" alt="Mental.ly App" className="w-full h-full object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">#17(You)thOfNibras</h3>

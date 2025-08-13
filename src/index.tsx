@@ -259,7 +259,7 @@ export default function Index() {
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
-                    src="/public/project/esr.jpeg"
+                    src="public/project/esr.jpeg"
                     alt="Proyek 2"
                     className="w-full h-full object-cover"
                   />
@@ -289,7 +289,7 @@ export default function Index() {
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
-                    src="/public/project/sip-sj.jpeg"
+                    src="public/project/sip-sj.jpeg"
                     alt="Proyek 3"
                     className="w-full h-full object-cover"
                   />
