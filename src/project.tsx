@@ -84,7 +84,7 @@ export default function project(){
                 <span className="tech-tag text-sm px-3 py-1 rounded-full">JavaScript</span>
                 {/* <span className="tech-tag text-sm px-3 py-1 rounded-full">Google Script</span> */}
               </div>
-              <a href="https://fla-o-krezz.vercel.app" className="project-btn inline-block font-medium py-3 px-6 rounded-lg">
+              <a href="https://luthfiaditya01.github.io" className="project-btn inline-block font-medium py-3 px-6 rounded-lg">
                 <i className="fas fa-external-link-alt mr-2"></i>Lihat Proyek
               </a>
             </div>

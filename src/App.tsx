@@ -99,6 +99,13 @@ function AppContent() {
         />
       </Routes>
 
+      <div data-aos="fade-left" className="fixed bottom-10 right-10 z-50">
+        <a className="contact-btn text-white font-medium py-2 px-4 md:py-4 md:px-8 rounded-full transition-all duration-300 ease-in-out" href="mailto:luthfi2004aditya@gmail.com" rel="noopener noreferrer"> 
+          Contact Me 
+        </a>
+      </div>
+
+
 
       {/* Footer hanya ditampilkan di route tertentu */}
       {shouldShowFooter && (
