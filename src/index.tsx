@@ -50,7 +50,7 @@ export default function Index() {
           <span className="text-slate-300">or</span>
           <br />
           <Link
-            to="./Curriculum Vitae_Luthfi Aditya.pdf"
+            to="./Curriculum-Vitae_Luthfi-Aditya.pdf"
             target="_blank"
             className="hero-btn text-white font-semibold py-3 px-6 rounded-lg transition duration-300 inline-block mt-4">
             Have a look at my CV! 👀
