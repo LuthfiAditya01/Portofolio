@@ -31,6 +31,76 @@ export default function About() {
     laravel: { type: "hard", title: "Laravel", icon: "⚡", percentage: 75, gradient: "from-red-500 to-pink-500", description: "Kerangka kerja PHP yang elegan untuk pengembangan aplikasi web.", details: ["✅ Pola arsitektur MVC", "✅ Eloquent ORM dan migrasi basis data", "✅ Otentikasi dan otorisasi", "✅ Pengembangan API dengan Laravel Sanctum", "✅ Mesin template Blade", "✅ Antarmuka baris perintah Artisan", "🔄 Laravel Livewire untuk komponen reaktif"], experience: "Membangun aplikasi web dengan Laravel. Fokus pada arsitektur kode yang bersih dan praktik terbaik keamanan." },
     flutter: { type: "hard", title: "Flutter", icon: "💙", percentage: 35, gradient: "from-blue-400 to-cyan-400", description: "Kerangka kerja pengembangan seluler lintas platform oleh Google.", details: ["✅ Dasar-dasar bahasa pemrograman Dart", "✅ Pohon widget dan manajemen state", "✅ Implementasi Material Design", "✅ Navigasi dan routing dasar", "🔄 Manajemen state tingkat lanjut (BLoC, Provider)", "🔄 Channel platform untuk integrasi native", "🔄 Pengembangan Flutter Web dan Desktop"], experience: "Saat ini sedang aktif belajar Flutter untuk pengembangan lintas platform. Target untuk mencapai kemahiran dalam 6 bulan ke depan." },
     "google-workspace": { type: "hard", title: "Google Workspace", icon: "📊", percentage: 90, gradient: "from-yellow-500 to-orange-500", description: "Suite Produktivitas berbasis cloud oleh Google.", details: ["✅ Rumus dan skrip tingkat lanjut Google Sheets", "✅ Kolaborasi dan pemformatan Google Docs", "✅ Organisasi dan berbagi Google Drive", "✅ Komunikasi profesional Gmail", "✅ Penjadwalan dan manajemen Google Calendar", "✅ Google Forms untuk pengumpulan data", "✅ Otomasi Google Apps Script"], experience: "Pengguna mahir Google Workspace untuk produktivitas dan kolaborasi. Membuat skrip otomasi untuk optimisasi alur kerja." },
+
+    // Additional Hard Skills shown in the progress list
+    api: { 
+      type: "hard", 
+      title: "API", 
+      icon: "🔗", 
+      percentage: 75, 
+      gradient: "from-yellow-500 to-orange-500", 
+      description: "Perancangan dan konsumsi RESTful API untuk integrasi front-end dan back-end.", 
+      details: [
+        "✅ Perancangan endpoint REST (resource-oriented)",
+        "✅ Autentikasi Bearer/JWT dan pengelolaan header",
+        "✅ Fetch API/Axios, error handling, retry sederhana",
+        "✅ Pagination, filtering, dan sorting di sisi API",
+        "✅ Dokumentasi API (OpenAPI/Swagger) dasar",
+        "🔄 Webhook dan integrasi real-time (SSE/WebSocket)"
+      ],
+      experience: "Membangun dan mengonsumsi REST API pada proyek web skala kecil-menengah, fokus pada konsistensi kontrak dan penanganan error."
+    },
+    "react-js": { 
+      type: "hard", 
+      title: "React JS", 
+      icon: "⚛️", 
+      percentage: 90, 
+      gradient: "from-yellow-500 to-orange-500", 
+      description: "Pengembangan SPA dengan React 18, hooks, dan pola komponen yang dapat digunakan kembali.", 
+      details: [
+        "✅ Hooks dasar & lanjutan (useState, useEffect, useMemo)",
+        "✅ React Router v7 untuk navigasi client-side",
+        "✅ Optimisasi render (memoization, key, list rendering)",
+        "✅ Pengelolaan meta tag dengan react-helmet-async",
+        "✅ Integrasi AOS untuk animasi scroll",
+        "🔄 Code-splitting & lazy loading"
+      ],
+      experience: "Membangun beberapa halaman SPA dengan pola komponen terstruktur dan pengalaman animasi/interaksi yang halus."
+    },
+    "next-js": { 
+      type: "hard", 
+      title: "Next JS", 
+      icon: "⏭️", 
+      percentage: 85, 
+      gradient: "from-yellow-500 to-orange-500", 
+      description: "Pengembangan aplikasi React dengan kemampuan SSR/SSG/ISR dan routing berbasis file.", 
+      details: [
+        "✅ Routing berbasis file (pages/app router)",
+        "✅ Data fetching (SSR, SSG, ISR) dan caching",
+        "✅ Optimasi gambar & font bawaan",
+        "✅ API routes untuk endpoint ringan",
+        "🔄 Middleware & edge runtime",
+        "🔄 Konfigurasi advanced untuk SEO & i18n"
+      ],
+      experience: "Mengerjakan proyek berbasis Next.js dengan fokus pada performa, SEO, dan pola data fetching yang tepat guna."
+    },
+    mongodb: { 
+      type: "hard", 
+      title: "MongoDB", 
+      icon: "🍃", 
+      percentage: 80, 
+      gradient: "from-yellow-500 to-orange-500", 
+      description: "Basis data dokumen NoSQL untuk aplikasi modern yang fleksibel.", 
+      details: [
+        "✅ Perancangan skema dokumen dan relasi (embedded/reference)",
+        "✅ Query dasar & indeks untuk performa",
+        "✅ Aggregation pipeline untuk analitik data",
+        "✅ Praktik transaksi & konsistensi dasar",
+        "🔄 ODM Mongoose & validasi skema",
+        "🔄 Sharding & replikasi"
+      ],
+      experience: "Membangun layer data dengan MongoDB untuk kebutuhan CRUD cepat dengan pipeline agregasi sederhana."
+    },
     // Soft Skills
     teamwork: { type: "soft", title: "Teamwork", icon: "🤝", percentage: 90, gradient: "from-green-500 to-emerald-500", description: "Kemampuan untuk bekerja secara efektif dalam sebuah tim.", details: ["✅ Mendengarkan aktif dan empati dalam komunikasi", "✅ Resolusi konflik dan pemecahan masalah kolaboratif", "✅ Berbagi pengetahuan dan membimbing junior", "✅ Kolaborasi lintas fungsi", "✅ Beradaptasi dengan berbagai tipe kepribadian", "✅ Berkontribusi dalam sesi brainstorming", "✅ Mendukung tujuan tim dan kesuksesan bersama"], experience: "Berpengalaman dalam memimpin dan berkontribusi pada berbagai proyek tim. Selalu fokus pada sinergi dan hasil kolektif." },
     "public-speaking": { type: "soft", title: "Public Speaking", icon: "🎤", percentage: 85, gradient: "from-blue-500 to-indigo-500", description: "Kemampuan untuk berkomunikasi secara efektif di depan audiens.", details: ["✅ Presentasi proyek kepada para pemangku kepentingan", "✅ Demo teknis dan pameran produk", "✅ Fasilitasi lokakarya dan penyampaian pelatihan", "✅ Berbicara impromptu dan menangani sesi tanya jawab", "✅ Bercerita untuk presentasi yang menarik", "🔄 Berbicara di hadapan audiens besar (100+ orang)", "🔄 Berbicara di konferensi internasional"], experience: "Sering mempresentasikan hasil proyek dan solusi teknis. Nyaman berbicara dalam berbagai suasana formal dan informal." },
@@ -113,7 +183,7 @@ export default function About() {
 
                 <div className="space-y-6 text-slate-200 leading-relaxed">
                   <p className="text-lg">
-                    Hi! I'm <span className="font-bold text-blue-400">Luthfi Aditya</span>. 6th Semester College Student. I'm having a big interest in <span className="font-bold text-green-400">Web Development</span> and 
+                    Hi! I'm <span className="font-bold text-blue-400">Luthfi Aditya</span>. 7th Semester College Student. I'm having a big interest in <span className="font-bold text-green-400">Web Development</span> and 
                     <span className="font-bold text-purple-400"> Mobile Development</span>.
                   </p>
 
@@ -128,7 +198,7 @@ export default function About() {
                         <strong className="text-green-400">Mental.ly</strong>: Mental.ly is a Mobile Application that use to predict how big is the chance that we have a mental issue according to the well-trained Machine Learning model. This project is a Team Project which is a Mandatory Requirement to Graduate from Independent Study Program by Kampus Merdeka in Bangkit Academy.
                       </li>
                       <li className="text-slate-300">
-                        <strong className="text-blue-400">Emergency Service Response</strong>: Emergency Service Response (shortened as ESR) is a Web-Based Application that use to connect user (parties in need of emergency assistance) to the member of Fire Department with the help of Admin to make sure every Emergency Assistance could be done optimally. This project is a Team Project that made as a Final Project for <strong>Analysis and Design of information System</strong> subject.
+                        <strong className="text-blue-400">Magnet (Magang Management)</strong>: Magnet is a Project for my internship at Badan Pusat Statistik Kota Bandar Lampung. This project is a Collab from ITERA (Institut Teknologi Sumatera) student and Unila (Universitas Lampung) student. I'm participating in making the Attendance Feature.
                       </li>
                     </ol>
                   </div>
@@ -328,6 +398,70 @@ export default function About() {
                       style={{ width: "90%" }}></div>
                   </div>
                 </div>
+
+                {/* <!-- API Progress --> */}
+                <div
+                  className="progress-item cursor-pointer hover:bg-gray-800/30 p-4 rounded-lg transition-all duration-300"
+                  data-skill="api"
+                  onClick={() => openSkillModal("api")}>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-lg font-semibold text-[#98ccfd]">API</span>
+                    <span className="text-lg font-bold text-[#98ccfd]">75%</span>
+                  </div>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-fill bg-gradient-to-r to-#4c7eb1 from-[#98ccfd]"
+                      style={{ width: "75%" }}></div>
+                  </div>
+                </div>
+
+                {/* <!-- React JS Progress --> */}
+                <div
+                  className="progress-item cursor-pointer hover:bg-gray-800/30 p-4 rounded-lg transition-all duration-300"
+                  data-skill="react-js"
+                  onClick={() => openSkillModal("react-js")}>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-lg font-semibold text-[#00b7ff]">React JS</span>
+                    <span className="text-lg font-bold text-[#00b7ff]">90%</span>
+                  </div>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-fill bg-gradient-to-r from-blue-300 to-[#00b7ff]"
+                      style={{ width: "90%" }}></div>
+                  </div>
+                </div>
+
+                {/* <!-- Next JS Progress --> */}
+                <div
+                  className="progress-item cursor-pointer hover:bg-gray-800/30 p-4 rounded-lg transition-all duration-300"
+                  data-skill="next-js"
+                  onClick={() => openSkillModal("next-js")}>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-lg font-semibold text-yellow-400">Next JS</span>
+                    <span className="text-lg font-bold text-yellow-400">85%</span>
+                  </div>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-fill bg-gradient-to-r from-yellow-500 to-orange-500"
+                      style={{ width: "85%" }}></div>
+                  </div>
+                </div>
+
+                {/* <!-- MongoDB Progress --> */}
+                <div
+                  className="progress-item cursor-pointer hover:bg-gray-800/30 p-4 rounded-lg transition-all duration-300"
+                  data-skill="mongodb"
+                  onClick={() => openSkillModal("mongodb")}>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-lg font-semibold text-[#13aa52]">MongoDB</span>
+                    <span className="text-lg font-bold text-[#13aa52]">80%</span>
+                  </div>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-fill bg-gradient-to-r from-green-300 to-[#13aa52]"
+                      style={{ width: "80%" }}></div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -487,13 +621,13 @@ export default function About() {
         </div>
       )}
 
-      <section className="">
+      {/* <section className="">
         <h1
           data-aos="fade-up"
           className="text-4xl md:text-6xl font-extrabold gradient-text mb-4 text-center">
           Here is some of my certifications! 😎
         </h1>
-      </section>
+      </section> */}
     </>
   );
 }
