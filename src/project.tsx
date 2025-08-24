@@ -262,7 +262,7 @@ export default function project() {
           <div data-aos="fade-right" data-aos-delay="500" className="timeline-item left">
             <div className="project-card shadow-md">
               <div className="image-container w-full h-48">
-                <img src="/project/portofolio.png" alt="Updated Portfolio" className="w-full h-full object-cover" />
+                <img src="/project/magnet.png" alt="Updated Portfolio" className="w-full h-full object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Magnet (Magang Management)</h3>
