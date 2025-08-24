@@ -211,6 +211,41 @@ export default function Index() {
                 <h3 className="text-lg font-semibold">Google Workspaces</h3>
               </div>
             </div>
+            {/* <!-- API Skill --> */}
+            <div
+              data-aos="fade-up"
+              data-aos-delay="500">
+              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
+                <img
+                  src="api-icon.png"
+                  className="max-w-12 mb-4 mx-auto"
+                  style={{ color: "#74c0fc" }}></img>
+                <h3 className="text-lg font-semibold">API</h3>
+              </div>
+            </div>
+            {/* <!-- React.Js Skill --> */}
+            <div
+              data-aos="fade-up"
+              data-aos-delay="700">
+              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
+                <i
+                  className="fab fa-react text-5xl mb-4"
+                  style={{ color: "#00b7ffff" }}></i>
+                <h3 className="text-lg font-semibold">React JS</h3>
+              </div>
+            </div>
+            {/* <!-- Next.Js Skill --> */}
+            <div
+              data-aos="fade-up"
+              data-aos-delay="700">
+              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
+                <img
+                  src="next-icon.png"
+                  className="max-w-12 mb-4 mx-auto"
+                  style={{ color: "#74c0fc" }}></img>
+                <h3 className="text-lg font-semibold">Next JS</h3>
+              </div>
+            </div>
           </div>
         </section>
       </div>
