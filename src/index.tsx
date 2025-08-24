@@ -74,7 +74,7 @@ export default function Index() {
           <h2 className="section-title text-3xl font-bold mb-8 text-center">About Me?</h2>
           <div className="max-w-3xl mx-auto">
             <p className="mb-4 text-slate-300">
-              I'm a <span className="text-sky-600 font-bold">6th Semester Computer Science</span> student with an enourmous interest in <span className="text-sky-600 font-bold">Web</span> and <span className="text-sky-600 font-bold">Mobile Development</span>. I have a pretty good knowledge in using <span className="text-[#E34F26] font-bold">HTML</span>, <span className="text-[#1572B6] font-bold">CSS</span>, <span className="text-[#B59F00] font-bold">JavaScript</span>, <span className="text-[#7F52FF] font-bold">Kotlin</span> language, also in Modern Framework like <span className="text-[#FF2D20] font-bold">Laravel</span> and <span className="text-[#38BDF8] font-bold">Tailwind</span>. I'm looking for an Internship Opportunity as a <span className="text-sky-600 font-bold">Web Developer</span> and/or <span className="text-sky-600 font-bold">Mobile Developer</span> to honing my skill and get an professional experience.
+              I'm a <span className="text-sky-600 font-bold">7th Semester Computer Science</span> student with an enourmous interest in <span className="text-sky-600 font-bold">Web</span> and <span className="text-sky-600 font-bold">Mobile Development</span>. I have a pretty good knowledge in using <span className="text-[#E34F26] font-bold">HTML</span>, <span className="text-[#1572B6] font-bold">CSS</span>, <span className="text-[#B59F00] font-bold">JavaScript</span>, <span className="text-[#7F52FF] font-bold">Kotlin</span> language, also in Modern Framework like <span className="text-[#FF2D20] font-bold">Laravel</span>, <span className="text-[#00b7ff] font-bold">React.js</span>, <span className="text-[#247db0] font-bold">Next.js</span> and <span className="text-[#38BDF8] font-bold">Tailwind</span>. I'm looking for an Internship Opportunity as a <span className="text-sky-600 font-bold">Web Developer</span> and/or <span className="text-sky-600 font-bold">Mobile Developer</span> to honing my skill and get an professional experience.
             </p>
             <p className="mb-4 text-slate-300">I like to solve problems and creating an user interface that visually appealing and works well. I love to learn new technologies and keep up with the latest trends in web development.</p>
             <p className="mb-4 text-slate-300">Some of the soft skills I have:</p>
@@ -246,6 +246,18 @@ export default function Index() {
                 <h3 className="text-lg font-semibold">Next JS</h3>
               </div>
             </div>
+            {/* <!-- MongoDB Skill --> */}
+            <div
+              data-aos="fade-up"
+              data-aos-delay="700">
+              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
+                <img
+                  src="mongodb-icon.png"
+                  className="max-w-12 mb-4 mx-auto"
+                  style={{ color: "#74c0fc" }}></img>
+                <h3 className="text-lg font-semibold">MongoDB</h3>
+              </div>
+            </div>
           </div>
         </section>
       </div>
@@ -294,12 +306,12 @@ export default function Index() {
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
-                    src="/project/esr.jpeg"
+                    src="/project/magnet.png"
                     alt="Proyek 2"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="p-6">
+                {/* <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">Emergency Service Response</h3>
                   <p className="mb-4">Sebuah projek tugas akhir semester aplikasi web untuk membantu pengguna dalam menghadapi keadaan darurat.</p>
                   <div className="flex flex-wrap gap-2 mb-4">
@@ -312,6 +324,21 @@ export default function Index() {
                     href="https://github.com/rofiframadhanks/esr"
                     className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
                     Lihat Proyek
+                  </a>
+                </div> */}
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-2">Magnet (Magang Management)</h3>
+                  <p className="mb-4">Sebuah projek akhir untuk Kerja Praktik saya di Badan Pusat Statistik Kota Bandar Lampung. dimana saya berpartisipasi dalam fitur Daftar Hadir bagi mahasiswa yang sedang magang disana</p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">React Js</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">Javascript</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">Tailwind</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">MongoDB</span>
+                  </div>
+                  <a
+                    href="https://magnet-bps.vercel.app/"
+                    className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
+                    Lihat Website
                   </a>
                 </div>
               </div>
