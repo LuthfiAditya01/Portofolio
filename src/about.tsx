@@ -50,22 +50,41 @@ export default function About() {
       ],
       experience: "Membangun dan mengonsumsi REST API pada proyek web skala kecil-menengah, fokus pada konsistensi kontrak dan penanganan error."
     },
-    "react-js": { 
+    "react-native": { 
       type: "hard", 
-      title: "React JS", 
+      title: "React Native", 
       icon: "⚛️", 
       percentage: 90, 
       gradient: "from-yellow-500 to-orange-500", 
-      description: "Pengembangan SPA dengan React 18, hooks, dan pola komponen yang dapat digunakan kembali.", 
+      description: "Pengembangan aplikasi mobile lintas platform dengan React Native, komponen reusable, dan integrasi native.", 
       details: [
-        "✅ Hooks dasar & lanjutan (useState, useEffect, useMemo)",
-        "✅ React Router v7 untuk navigasi client-side",
-        "✅ Optimisasi render (memoization, key, list rendering)",
-        "✅ Pengelolaan meta tag dengan react-helmet-async",
-        "✅ Integrasi AOS untuk animasi scroll",
-        "🔄 Code-splitting & lazy loading"
+        "✅ Hooks dasar & lanjutan untuk state management mobile",
+        "✅ React Navigation untuk navigasi stack & tab",
+        "✅ Komponen native (View, Text, ScrollView, FlatList)",
+        "✅ Integrasi native modules dan platform-specific code",
+        "✅ Styling dengan StyleSheet dan Flexbox mobile",
+        "🔄 Animasi dengan Animated API & Reanimated",
+        "🔄 AsyncStorage & pengelolaan data lokal"
       ],
-      experience: "Membangun beberapa halaman SPA dengan pola komponen terstruktur dan pengalaman animasi/interaksi yang halus."
+      experience: "Membangun aplikasi mobile lintas platform dengan React Native, fokus pada UI/UX responsif dan integrasi fitur native."
+    },
+    "expo": { 
+      type: "hard", 
+      title: "Expo", 
+      icon: "📱", 
+      percentage: 85, 
+      gradient: "from-indigo-500 to-purple-500", 
+      description: "Platform dan framework untuk mempercepat pengembangan aplikasi React Native dengan tools dan services terintegrasi.", 
+      details: [
+        "✅ Expo CLI untuk quick start & development workflow",
+        "✅ Expo Go untuk testing langsung di perangkat",
+        "✅ Expo SDK (Camera, Location, FileSystem, dll.)",
+        "✅ EAS Build untuk native build cloud-based",
+        "✅ Over-the-air (OTA) updates dengan EAS Update",
+        "🔄 Expo Router untuk navigasi berbasis file",
+        "🔄 Custom native modules dengan config plugins"
+      ],
+      experience: "Menggunakan Expo untuk mempercepat development cycle aplikasi React Native dengan akses mudah ke native APIs dan deployment."
     },
     "next-js": { 
       type: "hard", 
@@ -183,28 +202,31 @@ export default function About() {
 
                 <div className="space-y-6 text-slate-200 leading-relaxed">
                   <p className="text-lg">
-                    Hi! I'm <span className="font-bold text-blue-400">Luthfi Aditya</span>. 7th Semester College Student. I'm having a big interest in <span className="font-bold text-green-400">Web Development</span> and 
-                    <span className="font-bold text-purple-400"> Mobile Development</span>.
+                    Hi! I'm <span className="font-bold text-blue-400">Luthfi Aditya</span>, a passionate <span className="font-bold text-green-400">Full-Stack Developer</span> specializing in 
+                    <span className="font-bold text-green-400"> Web</span> and <span className="font-bold text-purple-400">Mobile Application Development</span>. Currently in my 7th semester at <span className="font-bold text-blue-400">Lampung University</span>, I transform ideas into elegant, user-centric digital solutions.
                   </p>
 
                   <p className="text-lg">
-                    I'm studying at <span className="font-bold text-blue-400">Lampung University</span> at
-                    <span className="font-bold text-indigo-400"> Computer Science</span> Department. I'm having many experience in making a project. some of them are:
+                    With expertise in <span className="font-bold text-cyan-400">React Native, Next.js, and Node.js</span>, I've successfully delivered multiple production-ready applications. My approach combines <span className="font-bold text-yellow-400">clean code principles</span> with 
+                    <span className="font-bold text-pink-400"> modern development practices</span> to create scalable, performant solutions.
                   </p>
 
                   <div className="bg-slate-800/30 rounded-lg p-6 border border-slate-700/50">
+                    <h3 className="text-xl font-bold text-blue-400 mb-4">Featured Projects:</h3>
                     <ol className="list-decimal list-outside pl-6 space-y-4">
                       <li className="text-slate-300">
-                        <strong className="text-green-400">Mental.ly</strong>: Mental.ly is a Mobile Application that use to predict how big is the chance that we have a mental issue according to the well-trained Machine Learning model. This project is a Team Project which is a Mandatory Requirement to Graduate from Independent Study Program by Kampus Merdeka in Bangkit Academy.
+                        <strong className="text-green-400">Mental.ly</strong> — AI-Powered Mental Health Prediction App
+                        <p className="mt-2 text-sm text-slate-400">Led mobile development using <span className="text-green-300">React Native & TensorFlow</span>, integrating ML models for real-time mental health assessment. Successfully graduated from <span className="text-green-300">Bangkit Academy</span> (Google, GoTo, Traveloka) Independent Study Program.</p>
                       </li>
                       <li className="text-slate-300">
-                        <strong className="text-blue-400">Magnet (Magang Management)</strong>: Magnet is a Project for my internship at Badan Pusat Statistik Kota Bandar Lampung. This project is a Collab from ITERA (Institut Teknologi Sumatera) student and Unila (Universitas Lampung) student. I'm participating in making the Attendance Feature.
+                        <strong className="text-blue-400">Magnet</strong> — Internship Management System
+                        <p className="mt-2 text-sm text-slate-400">Developed attendance tracking features using <span className="text-blue-300">Laravel & MySQL</span> for BPS Bandar Lampung. Collaborated with cross-university team (ITERA & Unila) to deliver mission-critical government software.</p>
                       </li>
                     </ol>
                   </div>
 
                   <p className="text-lg">
-                    I'd like to jogging and hit the gym in my spare time. I'm always full of energy in learning new things and improving both hard and soft of my skill further.
+                    <span className="font-bold text-cyan-400">Beyond coding</span>, I maintain peak performance through regular fitness training and jogging. I'm a <span className="font-bold text-yellow-400">quick learner</span> who thrives in dynamic environments, constantly expanding my technical expertise and soft skills to deliver exceptional results.
                     <span className="text-yellow-400">💪✨</span>
                   </p>
                 </div>
@@ -418,16 +440,32 @@ export default function About() {
                 {/* <!-- React JS Progress --> */}
                 <div
                   className="progress-item cursor-pointer hover:bg-gray-800/30 p-4 rounded-lg transition-all duration-300"
-                  data-skill="react-js"
-                  onClick={() => openSkillModal("react-js")}>
+                  data-skill="react-native"
+                  onClick={() => openSkillModal("react-native")}>
                   <div className="flex justify-between mb-2">
-                    <span className="text-lg font-semibold text-[#00b7ff]">React JS</span>
+                    <span className="text-lg font-semibold text-[#00b7ff]">React Native</span>
                     <span className="text-lg font-bold text-[#00b7ff]">90%</span>
                   </div>
                   <div className="progress-bar">
                     <div
                       className="progress-fill bg-gradient-to-r from-blue-300 to-[#00b7ff]"
                       style={{ width: "90%" }}></div>
+                  </div>
+                </div>
+
+                {/* <!-- Expo Progress --> */}
+                <div
+                  className="progress-item cursor-pointer hover:bg-gray-800/30 p-4 rounded-lg transition-all duration-300"
+                  data-skill="expo"
+                  onClick={() => openSkillModal("expo")}>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-lg font-semibold text-indigo-400">Expo</span>
+                    <span className="text-lg font-bold text-indigo-400">85%</span>
+                  </div>
+                  <div className="progress-bar">
+                    <div
+                      className="progress-fill bg-gradient-to-r from-indigo-500 to-purple-500"
+                      style={{ width: "85%" }}></div>
                   </div>
                 </div>
 

@@ -3,6 +3,7 @@
 import { Link } from "react-router-dom";
 import { Route } from "./utils/link";
 import { useEffect } from "react";
+import { FaReact } from "react-icons/fa";
 
 export default function Index() {
   useEffect(() => {
@@ -223,15 +224,13 @@ export default function Index() {
                 <h3 className="text-lg font-semibold">API</h3>
               </div>
             </div>
-            {/* <!-- React.Js Skill --> */}
+            {/* <!-- React Native Skill --> */}
             <div
               data-aos="fade-up"
               data-aos-delay="700">
               <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-react text-5xl mb-4"
-                  style={{ color: "#00b7ffff" }}></i>
-                <h3 className="text-lg font-semibold">React JS</h3>
+                <FaReact className="text-5xl mb-4 mx-auto" style={{ color: "#00b7ffff" }} />
+                <h3 className="text-lg font-semibold">React Native</h3>
               </div>
             </div>
             {/* <!-- Next.Js Skill --> */}
@@ -258,6 +257,15 @@ export default function Index() {
                 <h3 className="text-lg font-semibold">MongoDB</h3>
               </div>
             </div>
+            {/* <!-- React Native Skill --> */}
+            {/* <div
+              data-aos="fade-up"
+              data-aos-delay="700">
+              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
+                  <FaReact className="text-5xl mb-4 mx-auto" style={{ color: "#00b7ffff" }} />
+                <h3 className="text-lg font-semibold">React Native</h3>
+              </div>
+            </div> */}
           </div>
         </section>
       </div>
