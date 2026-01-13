@@ -3,7 +3,6 @@
 import { Link } from "react-router-dom";
 import { Route } from "./utils/link";
 import { useEffect } from "react";
-import { FaReact } from "react-icons/fa";
 
 export default function Index() {
   useEffect(() => {
@@ -28,256 +27,178 @@ export default function Index() {
   }, []);
   return (
     <>
-      {/* // <!-- Enhanced hero section --> */}
+      {/* HERO SECTION - THE SMART CHILLER */}
       <section
           data-aos="fade-up"
-          data-aos-delay="600"
+          data-aos-delay="400"
           id="home"
           className="min-h-screen flex items-center pt-16">
         <div className="container mx-auto px-6 py-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Welcome to my Portofolio! ^_^</h1>
-          <p className="text-xl mb-2 text-slate-300">
-            Hello! I'm <span className="text-sky-600 font-bold">Luthfi Aditya</span>,
+          <h1 className="hero-headline mb-6">NO NOISE.<br/>JUST INSIGHTS.</h1>
+          <p className="hero-subheadline mb-8">
+            Breaking down complex ideas into bite-sized vibes.<br/>
+            <span className="text-[#A0A0A0]">Web & Mobile Developer from Indonesia.</span>
           </p>
-          <p className="text-xl mb-6 text-slate-300">
-            a <span className="text-sky-600 font-bold">Web Developer</span>, and <span className="text-sky-600 font-bold">Mobile Developer</span> that focusing on Interactive, Responive, and Web and Multiplatform Mobile Application Development.
-          </p>
-          <Link
-            to={Route.about}
-            className="hero-btn text-white font-semibold py-3 px-6 rounded-lg transition duration-300 inline-block mt-4">
-            Let's know about me more!
-          </Link>
-          <br />
-          <span className="text-slate-300">or</span>
-          <br />
-          <Link
-            to="./Curriculum-Vitae_Luthfi-Aditya.pdf"
-            target="_blank"
-            className="hero-btn text-white font-semibold py-3 px-6 rounded-lg transition duration-300 inline-block mt-4">
-            Have a look at my CV! 👀
-          </Link>
+          <div className="flex flex-wrap gap-4 mt-8">
+            <Link
+              to={Route.about}
+              className="hero-btn inline-block">
+              Get Started
+            </Link>
+            <Link
+              to="/project"
+              className="btn-ghost inline-block">
+              Skip the BS →
+            </Link>
+          </div>
+          <div className="mt-6">
+            <Link
+              to="./Curriculum-Vitae_Luthfi-Aditya.pdf"
+              target="_blank"
+              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 text-sm font-['Inter'] underline underline-offset-4">
+              or just grab my CV 👀
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* <!-- Scroll indicator --> */}
+      {/* Scroll indicator */}
       <div className="scroll-indicator">
         <i className="fas fa-chevron-down"></i>
       </div>
 
-      {/* <!-- Enhanced flex container for About and Skills --> */}
-      <div className="flex flex-wrap">
-        {/* <!-- Glassmorphism About Section --> */}
-        <section
-          id="about"
-          data-aos="fade-up"
-          data-aos-delay="300"
-          className="w-full md:w-1/2 py-16 glassmorphism-section px-6">
-          <h2 className="section-title text-3xl font-bold mb-8 text-center">About Me?</h2>
-          <div className="max-w-3xl mx-auto">
-            <p className="mb-4 text-slate-300">
-              I'm a <span className="text-sky-600 font-bold">7th Semester Computer Science</span> student with an enourmous interest in <span className="text-sky-600 font-bold">Web</span> and <span className="text-sky-600 font-bold">Mobile Development</span>. I have a pretty good knowledge in using <span className="text-[#E34F26] font-bold">HTML</span>, <span className="text-[#1572B6] font-bold">CSS</span>, <span className="text-[#B59F00] font-bold">JavaScript</span>, <span className="text-[#7F52FF] font-bold">Kotlin</span> language, also in Modern Framework like <span className="text-[#FF2D20] font-bold">Laravel</span>, <span className="text-[#00b7ff] font-bold">React.js</span>, <span className="text-[#247db0] font-bold">Next.js</span> and <span className="text-[#38BDF8] font-bold">Tailwind</span>. I'm looking for an Internship Opportunity as a <span className="text-sky-600 font-bold">Web Developer</span> and/or <span className="text-sky-600 font-bold">Mobile Developer</span> to honing my skill and get an professional experience.
-            </p>
-            <p className="mb-4 text-slate-300">I like to solve problems and creating an user interface that visually appealing and works well. I love to learn new technologies and keep up with the latest trends in web development.</p>
-            <p className="mb-4 text-slate-300">Some of the soft skills I have:</p>
-            <ul className="list-disc pl-8 mb-6 text-slate-300 space-y-2">
-              <li>Fast Learner</li>
-              <li>Strong Problem Solving skills</li>
-              <li>Pay Attention to Details</li>
-              <li>Easy to work on Team</li>
-              <li>Effective Communiation</li>
-            </ul>
-          </div>
-        </section>
+      {/* CORE FEATURES SECTION - THE SMART CHILLER */}
+      <section
+        id="features"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        className="py-20 px-6">
+        <div className="container mx-auto">
+          <h2 className="section-title text-center mb-4">What I Do</h2>
+          <p className="text-[#6B6B6B] text-center mb-12 font-['Inter']">Straight to the point. No fluff.</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Card 1: The Deep Dive */}
+            <div data-aos="fade-up" data-aos-delay="300">
+              <div className="feature-card h-full">
+                <div className="icon text-[#00FFD1]">
+                  <i className="fas fa-search"></i>
+                </div>
+                <h3 className="text-lg mb-2">The Deep Dive</h3>
+                <p>Research-driven development. I dig deep into problems before writing a single line of code.</p>
+              </div>
+            </div>
 
-        {/* <!-- Enhanced Skills Section --> */}
-        <section
-          id="skills"
-          data-aos="fade-up"
-          data-aos-delay="700"
-          className="w-full md:w-1/2 py-16 px-6">
-          <h2
-            data-aos="fade-up"
-            className="section-title text-3xl font-bold mb-12 text-center">
-            Keahlian Teknis
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
-            {/* <!-- HTML Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="500">
-              <div className="skill-card p-6 shadow-md transition-all duration-300 ease-linear text-center">
-                <i
-                  className="fab fa-html5 text-5xl mb-4"
-                  style={{ color: "#e34c26" }}
-                />
-                <h3 className="text-lg font-semibold">HTML5</h3>
+            {/* Card 2: Quick Hits */}
+            <div data-aos="fade-up" data-aos-delay="400">
+              <div className="feature-card h-full">
+                <div className="icon text-[#5D5FEF]">
+                  <i className="fas fa-bolt"></i>
+                </div>
+                <h3 className="text-lg mb-2">Quick Hits</h3>
+                <p>Fast iterations, rapid prototyping. Get your MVP up and running in record time.</p>
               </div>
             </div>
-            {/* <!-- CSS Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-css3-alt text-5xl mb-4"
-                  style={{ color: "#264de4" }}></i>
-                <h3 className="text-lg font-semibold">CSS3</h3>
-              </div>
-            </div>
-            {/* <!-- Tailwind CSS Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="500">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-css3 text-5xl mb-4"
-                  style={{ color: "#38bdf8" }}></i>
-                <h3 className="text-lg font-semibold">Tailwind CSS</h3>
-              </div>
-            </div>
-            {/* <!-- Git Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-git-alt text-5xl mb-4"
-                  style={{ color: "#f34f29" }}></i>
-                <h3 className="text-lg font-semibold">Git</h3>
-              </div>
-            </div>
-            {/* <!-- MySQL Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="500">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fas fa-database text-5xl mb-4"
-                  style={{ color: "#336791" }}></i>
-                <h3 className="text-lg font-semibold">MySQL</h3>
-              </div>
-            </div>
-            {/* <!-- Node.js Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-node-js text-5xl mb-4"
-                  style={{ color: "#3c873a" }}></i>
-                <h3 className="text-lg font-semibold">Node.js</h3>
-              </div>
-            </div>
-            {/* <!-- Kotlin Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="500">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-android text-5xl mb-4"
-                  style={{ color: "#3c873a" }}></i>
-                <h3 className="text-lg font-semibold">Kotlin</h3>
-              </div>
-            </div>
-            {/* <!-- Laravel Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-laravel text-5xl mb-4"
-                  style={{ color: "#ff2d20" }}></i>
-                <h3 className="text-lg font-semibold">Laravel</h3>
-              </div>
-            </div>
-            {/* <!-- Flutter Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="500">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-flutter fa-bounce text-5xl mb-4"
-                  style={{ color: "#74c0fc" }}></i>
-                <h3 className="text-lg font-semibold">Flutter</h3>
-              </div>
-            </div>
-            {/* <!-- Google Workspaces Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <i
-                  className="fab fa-google text-5xl mb-4"
-                  style={{ color: "#ff0000" }}></i>
-                <h3 className="text-lg font-semibold">Google Workspaces</h3>
-              </div>
-            </div>
-            {/* <!-- API Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="500">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <img
-                  src="api-icon.png"
-                  className="max-w-12 mb-4 mx-auto"
-                  style={{ color: "#74c0fc" }}></img>
-                <h3 className="text-lg font-semibold">API</h3>
-              </div>
-            </div>
-            {/* <!-- React Native Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <FaReact className="text-5xl mb-4 mx-auto" style={{ color: "#00b7ffff" }} />
-                <h3 className="text-lg font-semibold">React Native</h3>
-              </div>
-            </div>
-            {/* <!-- Next.Js Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <img
-                  src="next-icon.png"
-                  className="max-w-12 mb-4 mx-auto"
-                  style={{ color: "#74c0fc" }}></img>
-                <h3 className="text-lg font-semibold">Next JS</h3>
-              </div>
-            </div>
-            {/* <!-- MongoDB Skill --> */}
-            <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                <img
-                  src="mongodb-icon.png"
-                  className="max-w-12 mb-4 mx-auto"
-                  style={{ color: "#74c0fc" }}></img>
-                <h3 className="text-lg font-semibold">MongoDB</h3>
-              </div>
-            </div>
-            {/* <!-- React Native Skill --> */}
-            {/* <div
-              data-aos="fade-up"
-              data-aos-delay="700">
-              <div className="skill-card p-6 shadow-md transition duration-300 text-center">
-                  <FaReact className="text-5xl mb-4 mx-auto" style={{ color: "#00b7ffff" }} />
-                <h3 className="text-lg font-semibold">React Native</h3>
-              </div>
-            </div> */}
-          </div>
-        </section>
-      </div>
 
-      {/* <!-- Enhanced Projects Section --> */}
+            {/* Card 3: The Lab */}
+            <div data-aos="fade-up" data-aos-delay="500">
+              <div className="feature-card h-full">
+                <div className="icon text-[#00FFD1]">
+                  <i className="fas fa-flask"></i>
+                </div>
+                <h3 className="text-lg mb-2">The Lab</h3>
+                <p>Experimental projects, AI tools, and bleeding-edge tech exploration.</p>
+              </div>
+            </div>
+
+            {/* Card 4: Chill Zone */}
+            <div data-aos="fade-up" data-aos-delay="600">
+              <div className="feature-card h-full">
+                <div className="icon text-[#5D5FEF]">
+                  <i className="fas fa-palette"></i>
+                </div>
+                <h3 className="text-lg mb-2">Chill Zone</h3>
+                <p>Clean UI/UX. Aesthetic curation. Making things look good while they work great.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SKILLS SECTION - Minimal Grid */}
+      <section
+        id="skills"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        className="py-20 px-6 bg-[#1E1E1E]/50">
+        <div className="container mx-auto">
+          <h2 className="section-title text-center mb-4">Tech Stack</h2>
+          <p className="text-[#6B6B6B] text-center mb-12 font-['Inter']">Tools of the trade.</p>
+          
+          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {/* Skills */}
+            <div data-aos="fade-up" data-aos-delay="100" className="skill-card">
+              <i className="fab fa-html5 text-4xl" style={{ color: "#e34c26" }}></i>
+              <h3>HTML5</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="150" className="skill-card">
+              <i className="fab fa-css3-alt text-4xl" style={{ color: "#264de4" }}></i>
+              <h3>CSS3</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200" className="skill-card">
+              <i className="fab fa-js text-4xl" style={{ color: "#f7df1e" }}></i>
+              <h3>JavaScript</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="250" className="skill-card">
+              <i className="fab fa-react text-4xl" style={{ color: "#61dafb" }}></i>
+              <h3>React</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300" className="skill-card">
+              <i className="fab fa-node-js text-4xl" style={{ color: "#3c873a" }}></i>
+              <h3>Node.js</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="350" className="skill-card">
+              <i className="fab fa-laravel text-4xl" style={{ color: "#ff2d20" }}></i>
+              <h3>Laravel</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" className="skill-card">
+              <i className="fab fa-android text-4xl" style={{ color: "#3ddc84" }}></i>
+              <h3>Kotlin</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="450" className="skill-card">
+              <i className="fab fa-react text-4xl" style={{ color: "#00b7ff" }}></i>
+              <h3>React Native</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="500" className="skill-card">
+              <i className="fas fa-database text-4xl" style={{ color: "#336791" }}></i>
+              <h3>MySQL</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="550" className="skill-card">
+              <i className="fab fa-git-alt text-4xl" style={{ color: "#f34f29" }}></i>
+              <h3>Git</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="600" className="skill-card">
+              <i className="fas fa-leaf text-4xl" style={{ color: "#4db33d" }}></i>
+              <h3>MongoDB</h3>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="650" className="skill-card">
+              <i className="fas fa-wind text-4xl" style={{ color: "#38bdf8" }}></i>
+              <h3>Tailwind</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PROJECTS SECTION - THE SMART CHILLER */}
       <section
         id="projects"
         data-aos="fade-up"
-        data-aos-delay="400"
-        className="py-16 glassmorphism-section">
-        <div className="container mx-auto px-6">
-          <h2 className="section-title text-3xl font-bold mb-12 text-center">Latest Project</h2>
+        data-aos-delay="200"
+        className="py-20 px-6">
+        <div className="container mx-auto">
+          <h2 className="section-title text-center mb-4">Latest Work</h2>
+          <p className="text-[#6B6B6B] text-center mb-12 font-['Inter']">Selected projects that shipped.</p>
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div
               data-aos="fade-up"
@@ -382,12 +303,12 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <div className="mt-8 lg:mt-4 text-slate-300">
-            Let's View all of my Project <br />
+          <div className="text-center mt-12">
+            <p className="text-[#6B6B6B] mb-4 font-['Inter']">Want to see more?</p>
             <Link
               to={"/project"}
-              className="hero-btn inline-block font-semibold py-3 px-6 rounded-lg transition duration-300 mt-4">
-              shall we?
+              className="hero-btn inline-block">
+              View All Projects →
             </Link>
           </div>
         </div>

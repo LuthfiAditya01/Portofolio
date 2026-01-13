@@ -5,10 +5,13 @@ export default function project() {
   return (
     <>
       <section id="hero" className="mt-24 pt-8">
-        <h1 data-aos="fade-down" data-aos-delay="500" className="text-center mx-16 text-4xl font-bold">
-          Let's explore the journey of my coding!
-          <span><i className="fa-solid fa-paper-plane fa-beat-fade text-sky-400"></i></span>
+        <h1 data-aos="fade-down" data-aos-delay="300" className="text-center mx-16 text-4xl font-bold font-['Space_Grotesk']">
+          The Lab
+          <span className="ml-3"><i className="fa-solid fa-flask text-[#00FFD1]"></i></span>
         </h1>
+        <p data-aos="fade-up" data-aos-delay="400" className="text-center text-[#6B6B6B] mt-4 font-['Inter']">
+          Projects that shipped. Say less.
+        </p>
       </section>
 
 
