@@ -3,15 +3,32 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import file CSS AOS
 import Index from "./index";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import NotFound from "./404";
 import Metatags from "./utils/metatags";
 import About from "./about";
 import Project from "./project";
+import { FaReact } from "react-icons/fa";
 // import Project from "./project";
 
 function AppContent() {
   const location = useLocation();
+  const [isLoading, setIsLoading] = useState(true);
+  const [fadeOut, setFadeOut] = useState(false);
+  const [contentVisible, setContentVisible] = useState(false);
+
+  useEffect(() => {
+    // Simulate loading time for first visit
+    const loadingTimer = setTimeout(() => {
+      setFadeOut(true);
+      setTimeout(() => {
+        setIsLoading(false);
+        setContentVisible(true);
+      }, 800); // Wait for fade out animation
+    }, 2000); // Loading duration
+
+    return () => clearTimeout(loadingTimer);
+  }, []);
 
   useEffect(() => {
     AOS.init({
@@ -38,6 +55,44 @@ function AppContent() {
 
   return (
     <div className="font-jetbrains">
+      {/* Loading Screen */}
+      {isLoading && (
+        <div className={`fixed inset-0 z-[9999] flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 transition-opacity duration-800 ${
+          fadeOut ? 'opacity-0' : 'opacity-100'
+        }`}>
+          <div className="text-center">
+            {/* Animated Logo/Icon */}
+            <div className="relative mb-8">
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-32 h-32 border-4 border-blue-500/30 rounded-full animate-ping"></div>
+              </div>
+              <div className="relative flex items-center justify-center">
+                <FaReact className="text-8xl text-blue-400 animate-spin" style={{ animationDuration: '3s' }} />
+              </div>
+            </div>
+            
+            {/* Loading Text */}
+            <h2 className="text-3xl font-bold text-white mb-4 animate-pulse">
+              Loading Portfolio...
+            </h2>
+            
+            {/* Loading Bar */}
+            <div className="w-64 h-2 bg-slate-700/50 rounded-full overflow-hidden mx-auto">
+              <div className="h-full bg-gradient-to-r from-blue-500 to-cyan-400 animate-loading-bar"></div>
+            </div>
+            
+            {/* Fun Loading Messages */}
+            <p className="text-slate-300 mt-6 text-sm animate-pulse">
+              Preparing awesome content for you... ✨
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* Main Content with Fade Up Animation */}
+      <div className={`transition-all duration-1000 ${
+        contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+      }`}>
       <header
         data-aos="fade-down"
         className="fixed w-full top-0 z-50">
@@ -138,6 +193,7 @@ function AppContent() {
           </div>
         </footer>
       )}
+      </div>
     </div>
   );
 }
