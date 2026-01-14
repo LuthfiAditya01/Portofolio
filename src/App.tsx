@@ -8,7 +8,6 @@ import NotFound from "./404";
 import Metatags from "./utils/metatags";
 import About from "./about";
 import Project from "./project";
-import { FaReact } from "react-icons/fa";
 // import Project from "./project";
 
 function AppContent() {
