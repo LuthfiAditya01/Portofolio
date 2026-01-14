@@ -216,11 +216,11 @@ export default function About() {
                     <ol className="list-decimal list-outside pl-6 space-y-4">
                       <li className="text-slate-300">
                         <strong className="text-green-400">Mental.ly</strong> — AI-Powered Mental Health Prediction App
-                        <p className="mt-2 text-sm text-slate-400">Led mobile development using <span className="text-green-300">React Native & TensorFlow</span>, integrating ML models for real-time mental health assessment. Successfully graduated from <span className="text-green-300">Bangkit Academy</span> (Google, GoTo, Traveloka) Independent Study Program.</p>
+                        <p className="mt-2 text-sm text-slate-400">Led mobile development using <span className="text-green-300">Kotlin & TensorFlow</span>, integrating ML models for real-time mental health assessment. Successfully graduated from <span className="text-green-300">Bangkit Academy</span> (Google, GoTo, Traveloka) Independent Study Program.</p>
                       </li>
                       <li className="text-slate-300">
                         <strong className="text-blue-400">Magnet</strong> — Internship Management System
-                        <p className="mt-2 text-sm text-slate-400">Developed attendance tracking features using <span className="text-blue-300">Laravel & MySQL</span> for BPS Bandar Lampung. Collaborated with cross-university team (ITERA & Unila) to deliver mission-critical government software.</p>
+                        <p className="mt-2 text-sm text-slate-400">Developed attendance tracking features using <span className="text-blue-300">Next.js and Mongodb</span> for BPS Bandar Lampung. Collaborated with cross-university team (ITERA & Unila) to deliver mission-critical government software.</p>
                       </li>
                     </ol>
                   </div>
