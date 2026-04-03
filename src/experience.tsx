@@ -22,7 +22,7 @@ const experienceData: ExperienceYear[] = [
       {
         role: "IT Staff Intern",
         company: "Badan Pusat Statistik Kota Bandar Lampung",
-        period: "Mei 2025 - Agustus 2025",
+        period: "Juni 2025 - Agustus 2025",
         location: "Bandar Lampung, Indonesia",
         stack: [
           "React",
