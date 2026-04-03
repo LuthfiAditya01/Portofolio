@@ -1,3 +1,4 @@
 export const Route = {
-    "about" : "/about"
-}
+    "about": "/about",
+    "experience": "/experience"
+};

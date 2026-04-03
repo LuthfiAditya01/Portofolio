@@ -8,6 +8,7 @@ import NotFound from "./404";
 import Metatags from "./utils/metatags";
 import About from "./about";
 import Project from "./project";
+import Experience from "./experience";
 // import Project from "./project";
 
 function AppContent() {
@@ -38,7 +39,7 @@ function AppContent() {
   }, []);
 
     // Daftar route yang MENAMPILKAN footer
-  const routesWithFooter = ['/', '/about', '/project']; // Hanya route ini yang tampil footer
+  const routesWithFooter = ['/', '/about', '/project', '/experience']; // Hanya route ini yang tampil footer
   
   // Cek apakah route saat ini termasuk yang menampilkan footer
   const shouldShowFooter = routesWithFooter.includes(location.pathname);
@@ -109,6 +110,9 @@ function AppContent() {
             <Link to="/project" className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300">
               <i className="fas fa-code text-lg"></i>
             </Link>
+            <Link to="/experience" className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300">
+              <i className="fas fa-briefcase text-lg"></i>
+            </Link>
           </div>
         </nav>
       </header>
@@ -147,6 +151,10 @@ function AppContent() {
         <Route
           path="/project"
           element={<Project />}
+        />
+        <Route
+          path="/experience"
+          element={<Experience />}
         />
       </Routes>
 
