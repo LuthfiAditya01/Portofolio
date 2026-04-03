@@ -16,6 +16,7 @@ function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
   const [contentVisible, setContentVisible] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     // Simulate loading time for first visit
@@ -51,6 +52,7 @@ function AppContent() {
       left: 0,
       behavior: 'instant' // Animasi scroll halus
     });
+    setIsMobileMenuOpen(false);
   }, [location.pathname]);
 
   return (
@@ -99,6 +101,15 @@ function AppContent() {
             className="text-xl font-bold text-[#F5F5F5] font-['Space_Grotesk'] hover:text-[#00FFD1] transition-colors duration-300">
             LA<span className="text-[#00FFD1]">.</span>
           </Link>
+          <button
+            type="button"
+            className="md:hidden text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300"
+            aria-label={isMobileMenuOpen ? "Tutup menu navigasi" : "Buka menu navigasi"}
+            aria-expanded={isMobileMenuOpen}
+            onClick={() => setIsMobileMenuOpen((prev) => !prev)}
+          >
+            <i className={`fa-solid ${isMobileMenuOpen ? "fa-xmark" : "fa-bars"} text-xl`}></i>
+          </button>
           {/* Minimal Icon Navigation */}
           <div className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300">
@@ -115,6 +126,42 @@ function AppContent() {
             </Link>
           </div>
         </nav>
+        <div
+          className={`md:hidden border-t border-white/5 bg-[#121212]/95 backdrop-blur-xl transition-all duration-300 overflow-hidden ${
+            isMobileMenuOpen ? "max-h-72 opacity-100" : "max-h-0 opacity-0 pointer-events-none"
+          }`}
+        >
+          <div className="container mx-auto px-6 py-4 flex flex-col gap-2">
+            <Link
+              to="/"
+              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <i className="fas fa-home mr-3"></i>Home
+            </Link>
+            <Link
+              to="/about"
+              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <i className="fas fa-user mr-3"></i>About
+            </Link>
+            <Link
+              to="/project"
+              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <i className="fas fa-code mr-3"></i>Project
+            </Link>
+            <Link
+              to="/experience"
+              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <i className="fas fa-briefcase mr-3"></i>Experience
+            </Link>
+          </div>
+        </div>
       </header>
       <div className="animated-bg">
         <div className="floating-shape"></div>
