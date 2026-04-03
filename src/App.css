@@ -1,10 +1,10 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import 'tailwindcss';
 
 @theme {
-  --font-space: "Space Grotesk", sans-serif;
-  --font-inter: "Inter", sans-serif;
+  --font-space: "JetBrains Mono", monospace;
+  --font-inter: "JetBrains Mono", monospace;
 }
 
 /* THE SMART CHILLER - Color System */
@@ -20,12 +20,13 @@
 }
 
 body {
+  margin: 0;
   background: var(--base);
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
   color: var(--text-primary);
-  font-family: 'Inter', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* Subtle grid pattern background */
@@ -97,7 +98,7 @@ header {
 
 /* Hero Typography */
 .hero-headline {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 700;
   font-size: clamp(2.5rem, 8vw, 5rem);
   background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-mint) 100%);
@@ -109,7 +110,7 @@ header {
 }
 
 .hero-subheadline {
-  font-family: 'Inter', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 400;
   color: var(--text-secondary);
   font-size: 1.25rem;
@@ -118,7 +119,7 @@ header {
 
 /* Section Titles */
 .section-title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 700;
   color: var(--text-primary);
   font-size: 2rem;
@@ -138,7 +139,7 @@ header {
 .hero-btn {
   background: var(--accent-mint);
   color: var(--base);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   padding: 14px 32px;
   border-radius: 8px;
@@ -172,7 +173,7 @@ header {
 .btn-ghost {
   background: transparent;
   color: var(--text-primary);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
   padding: 14px 32px;
   border-radius: 8px;
@@ -221,7 +222,7 @@ header {
 }
 
 .feature-card h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -256,7 +257,7 @@ header {
 }
 
 .skill-card h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   color: var(--text-primary);
   font-size: 0.95rem;
   font-weight: 500;
@@ -288,7 +289,7 @@ header {
 }
 
 .project-card h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   color: var(--text-primary);
   font-weight: 600;
 }
@@ -304,7 +305,7 @@ header {
   background: rgba(0, 255, 209, 0.1);
   border: 1px solid rgba(0, 255, 209, 0.2);
   color: var(--accent-mint);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 0.75rem;
   font-weight: 500;
   padding: 6px 12px;
@@ -322,7 +323,7 @@ header {
   background: transparent;
   border: 1px solid var(--accent-mint);
   color: var(--accent-mint);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
   padding: 10px 20px;
   border-radius: 8px;
@@ -341,7 +342,7 @@ header {
   background: var(--surface);
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--text-primary);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
   padding: 12px 24px;
   border-radius: 50px;
@@ -764,6 +765,41 @@ footer {
   .project-card .p-6 {
     position: relative;
     z-index: 2;
+  }
+
+  /* Subtle floating animation for featured project cards */
+  .project-float {
+    animation: project-card-float 6s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  .project-float--1 {
+    animation-delay: 0s;
+  }
+
+  .project-float--2 {
+    animation-delay: 1.2s;
+  }
+
+  .project-float--3 {
+    animation-delay: 2.4s;
+  }
+
+  @keyframes project-card-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .project-float {
+      animation: none;
+      transform: none;
+    }
   }
 
   /* Enhanced image containers */

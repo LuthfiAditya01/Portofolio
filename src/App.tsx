@@ -79,8 +79,8 @@ function AppContent() {
       )}
 
       {/* Main Content with Fade Up Animation */}
-      <div className={`transition-all duration-1000 ${
-        contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+      <div className={`transition-opacity duration-1000 ${
+        contentVisible ? 'opacity-100' : 'opacity-0'
       }`}>
       {/* Minimalist Sticky Header - THE SMART CHILLER */}
       <header
@@ -175,7 +175,7 @@ function AppContent() {
                 </a>
               </div>
               <div data-aos="zoom-in" data-aos-delay="600">
-                <a href="https://open.spotify.com/user/luthfi.aditya" target="_blank" className="social-icon group">
+                <a href="https://open.spotify.com/user/31z2zthbqw3kwbzr5zwiinh4rg7y" target="_blank" className="social-icon group">
                   <i className="fab fa-spotify text-xl text-[#A0A0A0] group-hover:text-[#121212] transition-colors duration-300"></i>
                 </a>
               </div>
@@ -183,7 +183,7 @@ function AppContent() {
 
             {/* Sign-off Text */}
             <div className="text-center">
-              <p className="text-[#6B6B6B] text-sm font-['Inter'] mb-2">Built with curiosity. High-key optimized for clarity.</p>
+              <p className="text-[#6B6B6B] text-sm font-['JetBrains_Mono'] mb-2">Built with curiosity. High-key optimized for clarity.</p>
               <p className="text-[#A0A0A0] text-sm font-['Space_Grotesk']">&copy; 2025 <span className="text-[#00FFD1]">Luthfi Aditya</span></p>
             </div>
           </div>

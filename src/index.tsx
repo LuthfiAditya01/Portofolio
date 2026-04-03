@@ -55,7 +55,7 @@ export default function Index() {
             <Link
               to="./Curriculum-Vitae_Luthfi-Aditya.pdf"
               target="_blank"
-              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 text-sm font-['Inter'] underline underline-offset-4">
+              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 text-sm font-['JetBrains_Mono'] underline underline-offset-4">
               or just grab my CV 👀
             </Link>
           </div>
@@ -75,7 +75,7 @@ export default function Index() {
         className="py-20 px-6">
         <div className="container mx-auto">
           <h2 className="section-title text-center mb-4">What I Do</h2>
-          <p className="text-[#6B6B6B] text-center mb-12 font-['Inter']">Straight to the point. No fluff.</p>
+          <p className="text-[#6B6B6B] text-center mb-12 font-['JetBrains_Mono']">Straight to the point. No fluff.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1: The Deep Dive */}
@@ -133,7 +133,7 @@ export default function Index() {
         className="py-20 px-6 bg-[#1E1E1E]/50">
         <div className="container mx-auto">
           <h2 className="section-title text-center mb-4">Tech Stack</h2>
-          <p className="text-[#6B6B6B] text-center mb-12 font-['Inter']">Tools of the trade.</p>
+          <p className="text-[#6B6B6B] text-center mb-12 font-['JetBrains_Mono']">Tools of the trade.</p>
           
           <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {/* Skills */}
@@ -197,13 +197,14 @@ export default function Index() {
         className="py-20 px-6">
         <div className="container mx-auto">
           <h2 className="section-title text-center mb-4">Latest Work</h2>
-          <p className="text-[#6B6B6B] text-center mb-12 font-['Inter']">Selected projects that shipped.</p>
+          <p className="text-[#6B6B6B] text-center mb-12 font-['JetBrains_Mono']">Selected projects that shipped.</p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
             <div
               data-aos="fade-up"
               data-aos-mobile="fade-right"
-              data-aos-delay="500">
+              data-aos-delay="500"
+              className="project-float project-float--1">
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
@@ -231,7 +232,8 @@ export default function Index() {
             <div
               data-aos="fade-up"
               data-aos-mobile="fade-right"
-              data-aos-delay="500">
+              data-aos-delay="500"
+              className="project-float project-float--2">
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
@@ -257,7 +259,7 @@ export default function Index() {
                 </div> */}
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">Magnet (Magang Management)</h3>
-                  <p className="mb-4">Sebuah projek akhir untuk Kerja Praktik saya di Badan Pusat Statistik Kota Bandar Lampung. dimana saya berpartisipasi dalam fitur Daftar Hadir bagi mahasiswa yang sedang magang disana</p>
+                  <p className="mb-4">Projek Akhir Kerja Praktik di BPS Kota Bandar Lampung. Berkontribusi dalam fitur Daftar Hadir</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">React Js</span>
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">Javascript</span>
@@ -276,35 +278,43 @@ export default function Index() {
             <div
               data-aos="fade-up"
               data-aos-mobile="fade-right"
-              data-aos-delay="500">
+              data-aos-delay="500"
+              className="project-float project-float--3">
               <div className="project-card rounded-lg overflow-hidden shadow-md transition duration-300">
                 <div className="image-container w-full h-48">
                   <img
-                    src="/project/sip-sj.jpeg"
+                    src="/project/duitlog.png"
                     alt="Proyek 3"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">SIP-SJ (SISTEM INFORMASI POSYANDU SEPUTIH JAYA)</h3>
-                  <p className="mb-4">Website untuk mengelola data dan informasi posyandu di Kelurahan Seputih Jaya</p>
+                  <h3 className="text-xl font-semibold mb-2">DuitLog</h3>
+                  <p className="mb-4">Aplikasi dan Website untuk mengelola keuangan pribadi, membantu dalam pencatatan Cashflow harian.</p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="tech-tag text-xs px-3 py-1 rounded-full">Laravel</span>
-                    <span className="tech-tag text-xs px-3 py-1 rounded-full">TailwindCSS</span>
-                    <span className="tech-tag text-xs px-3 py-1 rounded-full">JavaScript</span>
-                    <span className="tech-tag text-xs px-3 py-1 rounded-full">MySQL</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">Expo</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">React Native</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">Next.js</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">MongoDb</span>
                   </div>
-                  <a
-                    href="https://github.com/LuthfiAditya01/SIP-SJ"
-                    className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
-                    Lihat Proyek
-                  </a>
+                  <div className="flex flex-row items-center">
+                    <a
+                      href="https://drive.google.com/drive/folders/1eQ3gFq8s7nJOpvuW1JD2KdOKKKG6tW-Q?usp=drive_link"
+                      className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300 md:mr-3">
+                      Download Aplikasi
+                    </a>
+                    <a
+                      href="https://duitlog.web.id/"
+                      className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
+                      Lihat Website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="text-center mt-12">
-            <p className="text-[#6B6B6B] mb-4 font-['Inter']">Want to see more?</p>
+            <p className="text-[#6B6B6B] mb-4 font-['JetBrains_Mono']">Want to see more?</p>
             <Link
               to={"/project"}
               className="hero-btn inline-block">

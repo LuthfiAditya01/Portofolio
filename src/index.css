@@ -77,7 +77,7 @@ body {
     position: relative;
     overflow-x: hidden;
     color: #F5F5F5;
-    font-family: 'Inter', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   }
 
   /* Animated background elements - Subtle grid */
