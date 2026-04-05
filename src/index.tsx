@@ -215,15 +215,17 @@ export default function Index() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">Mental.ly App</h3>
-                  <p className="mb-4">Aplikasi Capstone project di Bangkit Academy untuk memprediksi mental kesehatan.</p>
+                  <p className="mb-4">A Kotlin-based mobile application designed for early mental health detection through questionnaires about users' mental health conditions and daily habits.</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">Kotlin</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">Retrofit</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">Figma</span>
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">Google Cloud</span>
                   </div>
                   <a
                     href="https://youtu.be/1yEdsNHTWZo?si=m5_UfoDv10J0-0sW"
                     className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
-                    Lihat Demo
+                    Watch Demo
                   </a>
                 </div>
               </div>
@@ -259,7 +261,7 @@ export default function Index() {
                 </div> */}
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">Magnet (Magang Management)</h3>
-                  <p className="mb-4">Projek Akhir Kerja Praktik di BPS Kota Bandar Lampung. Berkontribusi dalam fitur Daftar Hadir</p>
+                  <p className="mb-4">Developed a digital attendance feature in an intern management system during an internship project at the BPS Bandar Lampung City office to improve administrative efficiency.</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">React Js</span>
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">Javascript</span>
@@ -269,7 +271,7 @@ export default function Index() {
                   <a
                     href="https://magnet-bps.vercel.app/"
                     className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
-                    Lihat Website
+                    Visit Website
                   </a>
                 </div>
               </div>
@@ -289,24 +291,24 @@ export default function Index() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">DuitLog</h3>
-                  <p className="mb-4">Aplikasi dan Website untuk mengelola keuangan pribadi, membantu dalam pencatatan Cashflow harian.</p>
+                  <h3 className="text-xl font-semibold mb-2">Duitlog</h3>
+                  <p className="mb-4">A system delivered as both mobile and web applications for expense tracking, designed to help users manage their finances easily and efficiently.</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">Expo</span>
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">React Native</span>
                     <span className="tech-tag text-xs px-3 py-1 rounded-full">Next.js</span>
-                    <span className="tech-tag text-xs px-3 py-1 rounded-full">MongoDb</span>
+                    <span className="tech-tag text-xs px-3 py-1 rounded-full">MongoDB</span>
                   </div>
                   <div className="flex flex-row items-center">
                     <a
                       href="https://drive.google.com/drive/folders/1eQ3gFq8s7nJOpvuW1JD2KdOKKKG6tW-Q?usp=drive_link"
                       className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300 md:mr-3">
-                      Download Aplikasi
+                      Download App
                     </a>
                     <a
                       href="https://duitlog.web.id/"
                       className="project-btn inline-block font-medium py-2 px-4 rounded transition duration-300">
-                      Lihat Website
+                      Visit Website
                     </a>
                   </div>
                 </div>
