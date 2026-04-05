@@ -338,8 +338,7 @@ export default function project() {
                   SIP-SJ (SISTEM INFORMASI POSYANDU SEPUTIH JAYA)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Website untuk mengelola data dan informasi posyandu di
-                  Kelurahan Seputih Jaya
+                  Mengembangkan sistem berbasis web untuk pengelolaan data dan informasi Posyandu di Kelurahan Seputih Jaya, sehingga meningkatkan efisiensi administrasi dan kemudahan akses informasi bagi pengguna.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -382,8 +381,7 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Fla-O-Krezz</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Website berbentuk seperti brosur untuk memperkenalkan kreasi
-                  Pudding Fla-O-Krezz
+                  Mengembangkan website landing page untuk mempromosikan produk Pudding Fla-O-Krezz, dengan fokus pada penyampaian informasi produk dan peningkatan daya tarik visual bagi pengguna.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -431,8 +429,7 @@ export default function project() {
                   Portofolio (Updated)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Website portofolio yang berisi informasi tentang pengalaman
-                  dan proyek saya dengan desain yang diperbaharui
+                  Mengembangkan website portofolio pribadi berbasis React.js dengan desain modern dan responsif untuk menampilkan pengalaman dan proyek secara profesional, serta meningkatkan kemampuan dalam pengembangan frontend menggunakan teknologi modern.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -477,11 +474,7 @@ export default function project() {
                   #17(You)thOfNibras
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Website interaktif yang dibuat untuk merayakan momen ulang
-                  tahun ke-17 seseorang dengan konsep personal dan storytelling
-                  visual. Dibangun menggunakan React.js, Tailwind CSS, dan AOS
-                  untuk animasi scroll, situs ini menghadirkan pengalaman yang
-                  unik, responsif, dan penuh elemen kejutan.
+                  Mengembangkan website interaktif berbasis React.js untuk merayakan momen ulang tahun ke-17 dengan konsep personal dan storytelling visual, dilengkapi animasi scroll menggunakan AOS serta desain responsif untuk menghadirkan pengalaman pengguna yang unik.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -527,10 +520,7 @@ export default function project() {
                   Magnet (Magang Management)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Sebuah projek akhir untuk Kerja Praktik saya di Badan Pusat
-                  Statistik Kota Bandar Lampung. dimana saya berpartisipasi
-                  dalam fitur Daftar Hadir bagi mahasiswa yang sedang magang
-                  disana
+                  Mengembangkan fitur absensi digital dalam sistem manajemen peserta magang pada proyek Kerja Praktik di Badan Pusat Statistik Kota Bandar Lampung untuk meningkatkan efisiensi administrasi.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-xs px-3 py-1 rounded-full">
@@ -565,7 +555,7 @@ export default function project() {
             <div className="project-card shadow-md">
               <div className="image-container w-full h-48">
                 <img
-                  src="/project/nibras.png"
+                  src="/project/ambismart.png"
                   alt="Mental.ly App"
                   className="w-full h-full object-cover"
                 />
@@ -573,14 +563,14 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Ambismart</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Website Profile untuk Bimbingan Belajar dan Skripsi Ambismart
+                  Membangun website company profile responsif untuk Ambismart dengan fokus pada UI/UX yang intuitif dan strategi CTA untuk meningkatkan akses informasi dan interaksi pengguna.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
                     React Js
                   </span>
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
-                    Search Engine Optimation
+                    Search Engine Optimization
                   </span>
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
                     Vercel
@@ -609,7 +599,7 @@ export default function project() {
             <div className="project-card shadow-md">
               <div className="image-container w-full h-48">
                 <img
-                  src="/project/magnet.png"
+                  src="/project/veccie.png"
                   alt="Updated Portfolio"
                   className="w-full h-full object-cover"
                 />
@@ -617,7 +607,7 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Veccie Deluxe</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Sebuah website Catalog Parfum untuk brand Veccie Deluxe
+                  Membangun website katalog produk untuk Veccie Deluxe dengan desain responsif dan fokus pada UI/UX, serta mengintegrasikan call-to-action (CTA) yang terhubung langsung ke platform e-commerce seperti Shopee dan TikTok Shop untuk meningkatkan potensi konversi.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-xs px-3 py-1 rounded-full">

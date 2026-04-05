@@ -207,7 +207,7 @@ function AppContent() {
 
       <div data-aos="fade-left" className="fixed bottom-10 right-10 z-50">
         <a className="contact-btn text-[#F5F5F5] font-medium py-2 px-4 md:py-4 md:px-8 rounded-full transition-all duration-300 ease-in-out font-['Space_Grotesk']" href="mailto:luthfi2004aditya@gmail.com" rel="noopener noreferrer"> 
-          Drop a line. 
+          Let's Cook Something Great! 
         </a>
       </div>
 
