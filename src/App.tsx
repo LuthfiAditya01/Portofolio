@@ -18,6 +18,20 @@ function AppContent() {
   const [contentVisible, setContentVisible] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const isActiveRoute = (path: string) => location.pathname === path;
+  const desktopNavClass = (path: string) =>
+    `transition-colors duration-300 ${
+      isActiveRoute(path)
+        ? "text-[#00FFD1]"
+        : "text-[#A0A0A0] hover:text-[#00FFD1]"
+    }`;
+  const mobileNavClass = (path: string) =>
+    `transition-colors duration-300 py-2 ${
+      isActiveRoute(path)
+        ? "text-[#00FFD1]"
+        : "text-[#A0A0A0] hover:text-[#00FFD1]"
+    }`;
+
   useEffect(() => {
     // Simulate loading time for first visit
     const loadingTimer = setTimeout(() => {
@@ -112,16 +126,16 @@ function AppContent() {
           </button>
           {/* Minimal Icon Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300">
+            <Link to="/" className={desktopNavClass("/")}>
               <i className="fas fa-home text-lg"></i>
             </Link>
-            <Link to="/about" className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300">
+            <Link to="/about" className={desktopNavClass("/about")}>
               <i className="fas fa-user text-lg"></i>
             </Link>
-            <Link to="/project" className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300">
+            <Link to="/project" className={desktopNavClass("/project")}>
               <i className="fas fa-code text-lg"></i>
             </Link>
-            <Link to="/experience" className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300">
+            <Link to="/experience" className={desktopNavClass("/experience")}>
               <i className="fas fa-briefcase text-lg"></i>
             </Link>
           </div>
@@ -134,28 +148,32 @@ function AppContent() {
           <div className="container mx-auto px-6 py-4 flex flex-col gap-2">
             <Link
               to="/"
-              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              className={mobileNavClass("/")}
+              aria-current={isActiveRoute("/") ? "page" : undefined}
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <i className="fas fa-home mr-3"></i>Home
             </Link>
             <Link
               to="/about"
-              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              className={mobileNavClass("/about")}
+              aria-current={isActiveRoute("/about") ? "page" : undefined}
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <i className="fas fa-user mr-3"></i>About
             </Link>
             <Link
               to="/project"
-              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              className={mobileNavClass("/project")}
+              aria-current={isActiveRoute("/project") ? "page" : undefined}
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <i className="fas fa-code mr-3"></i>Project
             </Link>
             <Link
               to="/experience"
-              className="text-[#A0A0A0] hover:text-[#00FFD1] transition-colors duration-300 py-2"
+              className={mobileNavClass("/experience")}
+              aria-current={isActiveRoute("/experience") ? "page" : undefined}
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <i className="fas fa-briefcase mr-3"></i>Experience

@@ -602,30 +602,23 @@ footer {
     background: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(168, 85, 247, 0.3);
-    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4), 0 0 30px rgba(99, 102, 241, 0.2);
+    box-shadow: none;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
     overflow: hidden;
   }
 
   .contact-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-    transition: left 0.5s ease;
+    content: none;
   }
 
   .contact-btn:hover::before {
-    left: 100%;
+    content: none;
   }
 
   .contact-btn:hover {
     transform: translateY(-5px) scale(1.08);
-    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.6), 0 0 40px rgba(99, 102, 241, 0.4);
+    box-shadow: none;
     background: linear-gradient(135deg, #8b5cf6, #a855f7, #c084fc);
   }
 
