@@ -51,7 +51,7 @@ const experienceData: ExperienceYear[] = [
       },
       {
         role: "IT Mobile App Developer",
-        company: "Be Management / PT. Maju Gemilang Indotech",
+        company: "Be Management",
         period: "September 2025 - Present",
         location: "Rawa Buntu, Tangerang Selatan (Remote/WFH)",
         stack: ["React Native", "JavaScript", "Android", "REST API", "Git"],
