@@ -56,10 +56,10 @@ export default function project() {
                   Emergency Service Response (ESR)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Projek Website untuk <i>Final Project</i> mata kuliah Analisis
-                  dan Desain Sistem Informasi. Website ini berfungsi untuk
-                  membantu pengguna dalam membuat laporan kejadian darurat dan
-                  meminta bantuan dari pihak berwenang
+                  A website project for the <i>Final Project</i> in the
+                  Information Systems Analysis and Design course. This platform
+                  helps users report emergency incidents and request assistance
+                  from the appropriate authorities.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -82,7 +82,7 @@ export default function project() {
                   href="https://github.com/rofiframadhanks/esr"
                   className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                 >
-                  <i className="fab fa-github mr-2"></i>Lihat Proyek
+                  <i className="fab fa-github mr-2"></i>View Project
                 </a>
               </div>
             </div>
@@ -105,10 +105,9 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Mental.ly</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Aplikasi mobile dengan menggunakan Kotlin yang bermanfaat
-                  untuk mendeteksi awal kesehatan mental pengguna dengan cara
-                  memberikan kuisioner mengenai kesehatan mental dan kebiasaan
-                  pengguna
+                  A Kotlin-based mobile application designed for early mental
+                  health detection through questionnaires about users' mental
+                  health conditions and daily habits.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -129,13 +128,13 @@ export default function project() {
                     href="https://github.com/AhlanAlghiff/Mental.ly-Project"
                     className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                   >
-                    <i className="fab fa-github mr-2"></i>Lihat Proyek
+                    <i className="fab fa-github mr-2"></i>View Project
                   </a>
                   <a
                     href="https://youtu.be/1yEdsNHTWZo?si=m5_UfoDv10J0-0sW"
                     className="project-btn inline-block ml-2 font-medium py-3 px-6 rounded-lg"
                   >
-                    <i className="fab fa-youtube mr-2"></i>Lihat Demo
+                    <i className="fab fa-youtube mr-2"></i>Watch Demo
                   </a>
                 </div>
               </div>
@@ -159,8 +158,8 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Portofolio</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Website portofolio yang berisi informasi tentang pengalaman
-                  dan proyek saya
+                  A portfolio website containing information about my
+                  professional experience and projects.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -178,7 +177,7 @@ export default function project() {
                   href="https://luthfiaditya01.github.io"
                   className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                 >
-                  <i className="fas fa-external-link-alt mr-2"></i>Lihat Proyek
+                  <i className="fas fa-external-link-alt mr-2"></i>View Project
                 </a>
               </div>
             </div>
@@ -198,10 +197,10 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">JKT48 Merch Shop</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Project Website untuk <i>Final Project</i> mata kuliah
-                  Pemrograman Web. Website ini berfungsi untuk membeli
-                  merchandise JKT48 langsung dari website resmi tanpa melewati{" "}
-                  <i>Platform Online Shop</i> ketiga
+                  A website project for the <i>Final Project</i> in the Web
+                  Programming course. This platform allows users to purchase
+                  official JKT48 merchandise directly without using third-party
+                  <i> online shop platforms</i>.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -221,7 +220,7 @@ export default function project() {
                   href="https://github.com/andika1991/jkt48merchshop"
                   className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                 >
-                  <i className="fab fa-github mr-2"></i>Lihat Proyek
+                  <i className="fab fa-github mr-2"></i>View Project
                 </a>
               </div>
             </div>
@@ -243,9 +242,9 @@ export default function project() {
                   DocTrol (Document Control)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Project Website untuk <i>Final Project</i> mata kuliah
-                  Manajemen Pengetahuan. Website ini berfungsi untuk membantu
-                  pengguna dalam memanajemen pembelajaran pada sebuah kelas.
+                  A website project for the <i>Final Project</i> in the
+                  Knowledge Management course. The platform helps users manage
+                  classroom learning materials and activities.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -282,11 +281,10 @@ export default function project() {
                   Perpustakaan Modern XYZ
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Project Pra-UAS untuk Prasyarat pelaksanaan UAS mata kuliah
-                  Pemrograman Berbasis Objek. Projek ini Merupakan sebuah Sistem
-                  Informasi Perpustakaan yang dapat membantu pengguna dalam
-                  meminjam buku, Melihat Informasi Buku, dan Mengatur Anggota
-                  Perpustakaan.
+                  A pre-final exam project as a requirement for the
+                  Object-Oriented Programming course. This project is a library
+                  information system that helps users borrow books, view book
+                  information, and manage library members.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -300,11 +298,11 @@ export default function project() {
                   href="https://github.com/LuthfiAditya01/PerpustakaanModernXYZ"
                   className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                 >
-                  <i className="fab fa-github mr-2"></i>Lihat Proyek
+                  <i className="fab fa-github mr-2"></i>View Project
                 </a>
                 <div className="text-gray-500 text-sm italic">
-                  <i className="fas fa-info-circle mr-2"></i>Project akademik
-                  selesai
+                  <i className="fas fa-info-circle mr-2"></i>Academic project
+                  completed
                 </div>
               </div>
             </div>
@@ -338,7 +336,9 @@ export default function project() {
                   SIP-SJ (SISTEM INFORMASI POSYANDU SEPUTIH JAYA)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Mengembangkan sistem berbasis web untuk pengelolaan data dan informasi Posyandu di Kelurahan Seputih Jaya, sehingga meningkatkan efisiensi administrasi dan kemudahan akses informasi bagi pengguna.
+                  Developed a web-based system for managing Posyandu data and
+                  information in Seputih Jaya Village, improving administrative
+                  efficiency and information accessibility for users.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -358,7 +358,7 @@ export default function project() {
                   href="https://github.com/LuthfiAditya01/SIP-SJ"
                   className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                 >
-                  <i className="fab fa-github mr-2"></i>Lihat Proyek
+                  <i className="fab fa-github mr-2"></i>View Project
                 </a>
               </div>
             </div>
@@ -381,7 +381,9 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Fla-O-Krezz</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Mengembangkan website landing page untuk mempromosikan produk Pudding Fla-O-Krezz, dengan fokus pada penyampaian informasi produk dan peningkatan daya tarik visual bagi pengguna.
+                  Developed a landing page website to promote Fla-O-Krezz
+                  pudding products, with a focus on clear product information
+                  delivery and stronger visual appeal.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -404,7 +406,7 @@ export default function project() {
                   href="https://fla-o-krezz.vercel.app"
                   className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                 >
-                  <i className="fas fa-external-link-alt mr-2"></i>Lihat Website
+                  <i className="fas fa-external-link-alt mr-2"></i>Visit Website
                 </a>
               </div>
             </div>
@@ -429,7 +431,10 @@ export default function project() {
                   Portofolio (Updated)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Mengembangkan website portofolio pribadi berbasis React.js dengan desain modern dan responsif untuk menampilkan pengalaman dan proyek secara profesional, serta meningkatkan kemampuan dalam pengembangan frontend menggunakan teknologi modern.
+                  Developed a personal portfolio website using React.js with a
+                  modern and responsive design to present experience and
+                  projects professionally while strengthening frontend
+                  development skills with modern technologies.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -449,7 +454,7 @@ export default function project() {
                   to={"/"}
                   className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                 >
-                  <i className="fas fa-external-link-alt mr-2"></i>Lihat Proyek
+                  <i className="fas fa-external-link-alt mr-2"></i>View Project
                 </Link>
               </div>
             </div>
@@ -474,7 +479,10 @@ export default function project() {
                   #17(You)thOfNibras
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Mengembangkan website interaktif berbasis React.js untuk merayakan momen ulang tahun ke-17 dengan konsep personal dan storytelling visual, dilengkapi animasi scroll menggunakan AOS serta desain responsif untuk menghadirkan pengalaman pengguna yang unik.
+                  Developed an interactive React.js website to celebrate a
+                  17th birthday with a personal concept and visual
+                  storytelling, enhanced with AOS scroll animations and a
+                  responsive design for a unique user experience.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -495,7 +503,7 @@ export default function project() {
                     href="https://17youth-of-nibras.vercel.app/"
                     className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                   >
-                    <i className="fa-solid fa-globe mr-2"></i>Lihat Proyek
+                    <i className="fa-solid fa-globe mr-2"></i>View Project
                   </a>
                 </div>
               </div>
@@ -520,7 +528,10 @@ export default function project() {
                   Magnet (Magang Management)
                 </h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Mengembangkan fitur absensi digital dalam sistem manajemen peserta magang pada proyek Kerja Praktik di Badan Pusat Statistik Kota Bandar Lampung untuk meningkatkan efisiensi administrasi.
+                  Developed a digital attendance feature in an intern
+                  management system during an internship project at the BPS
+                  Bandar Lampung City office to improve administrative
+                  efficiency.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-xs px-3 py-1 rounded-full">
@@ -540,7 +551,7 @@ export default function project() {
                   href="https://magnet-bps.vercel.app/"
                   className="project-btn inline-block font-medium py-2 px-4 rounded transition ml-5 duration-300"
                 >
-                  <i className="fa-solid fa-globe mr-2"></i> Lihat Website
+                  <i className="fa-solid fa-globe mr-2"></i> Visit Website
                 </a>
               </div>
             </div>
@@ -563,7 +574,9 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Ambismart</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Membangun website company profile responsif untuk Ambismart dengan fokus pada UI/UX yang intuitif dan strategi CTA untuk meningkatkan akses informasi dan interaksi pengguna.
+                  Built a responsive company profile website for Ambismart with
+                  a focus on intuitive UI/UX and CTA strategy to improve
+                  information access and user interaction.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -584,7 +597,7 @@ export default function project() {
                     href="https://ambismart.web.id/"
                     className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                   >
-                    <i className="fa-solid fa-globe mr-2"></i>Lihat Proyek
+                    <i className="fa-solid fa-globe mr-2"></i>Visit Website
                   </a>
                 </div>
               </div>
@@ -607,7 +620,11 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Veccie Deluxe</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Membangun website katalog produk untuk Veccie Deluxe dengan desain responsif dan fokus pada UI/UX, serta mengintegrasikan call-to-action (CTA) yang terhubung langsung ke platform e-commerce seperti Shopee dan TikTok Shop untuk meningkatkan potensi konversi.
+                  Built a product catalog website for Veccie Deluxe with a
+                  responsive design and UI/UX focus, while integrating
+                  call-to-action (CTA) elements linked directly to e-commerce
+                  platforms such as Shopee and TikTok Shop to increase
+                  conversion potential.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-xs px-3 py-1 rounded-full">
@@ -627,7 +644,7 @@ export default function project() {
                   href="https://vecciedeluxe.web.id/"
                   className="project-btn inline-block font-medium py-2 px-4 rounded transition ml-5 duration-300"
                 >
-                  <i className="fa-solid fa-globe mr-2"></i> Lihat Website
+                  <i className="fa-solid fa-globe mr-2"></i> Visit Website
                 </a>
               </div>
             </div>
@@ -650,9 +667,9 @@ export default function project() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Duitlog</h3>
                 <p className="mb-4 text-md md:text-lg">
-                  Sebuah sistem dalam bentuk aplikasi mobile dan web sebagai
-                  pencatat pengeluaran yang dirancang untuk membantu pengguna
-                  mengelola keuangan mereka dengan mudah dan efisien.
+                  A system delivered as both mobile and web applications for
+                  expense tracking, designed to help users manage their
+                  finances easily and efficiently.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="tech-tag text-sm px-3 py-1 rounded-full">
@@ -673,13 +690,13 @@ export default function project() {
                     href="https://duitlog.web.id/"
                     className="project-btn inline-block font-medium py-3 px-6 rounded-lg"
                   >
-                    <i className="fa-solid fa-globe mr-2"></i>Lihat Web
+                    <i className="fa-solid fa-globe mr-2"></i>Visit Web
                   </a>
                   <a
                     href="https://drive.google.com/drive/folders/1eQ3gFq8s7nJOpvuW1JD2KdOKKKG6tW-Q?usp=drive_link"
                     className="project-btn inline-block ml-2 font-medium py-3 px-6 rounded-lg"
                   >
-                    <i className="fab fa-android mr-2"></i>Download Aplikasi
+                    <i className="fab fa-android mr-2"></i>Download App
                   </a>
                 </div>
               </div>

@@ -22,7 +22,7 @@ const experienceData: ExperienceYear[] = [
       {
         role: "IT Staff Intern",
         company: "Badan Pusat Statistik Kota Bandar Lampung",
-        period: "Juni 2025 - Agustus 2025",
+        period: "June 2025 - August 2025",
         location: "Bandar Lampung, Indonesia",
         stack: [
           "React",
@@ -35,30 +35,30 @@ const experienceData: ExperienceYear[] = [
           "MongoDB",
         ],
         summary: [
-          "Mengembangkan fitur absensi digital dalam sistem manajemen peserta magang untuk meningkatkan efisiensi administrasi.",
-          "Melakukan maintenance dan refactor pada codebase existing, termasuk pengelolaan database, untuk meningkatkan stabilitas aplikasi.",
-          "Membangun sistem analisis sentimen berbasis NLP untuk mengolah ulasan pengunjung booth BPS sebagai bahan evaluasi layanan.",
+          "Developed a digital attendance feature in the intern management system to improve administrative efficiency.",
+          "Performed maintenance and refactoring on the existing codebase, including database management, to improve application stability.",
+          "Built an NLP-based sentiment analysis system to process BPS booth visitor reviews as service evaluation input.",
         ],
       },
       {
         role: "Freelance Frontend Developer",
         company: "UMKM Lokal Lampung",
-        period: "September 2025 - Desember 2025",
+        period: "September 2025 - December 2025",
         location: "Remote",
         stack: ["React.js", "Next.js", "Vercel", "Firebase Firestore", "Firebase Authentication", "Google Search Console"],
         summary:
-          "Mengembangkan landing page promosi produk untuk UMKM dengan pendekatan mobile-first, optimalisasi performa, dan implementasi SEO dasar guna meningkatkan visibilitas dan konversi pengguna.",
+          "Developed a product promotion landing page for local SMEs using a mobile-first approach, performance optimization, and basic SEO implementation to improve visibility and user conversion.",
       },
       {
         role: "IT Mobile App Developer",
         company: "Be Management / PT. Maju Gemilang Indotech",
-        period: "September 2025 - Sekarang",
+        period: "September 2025 - Present",
         location: "Rawa Buntu, Tangerang Selatan (Remote/WFH)",
         stack: ["React Native", "JavaScript", "Android", "REST API", "Git"],
         summary: [
-          "Mengembangkan dan memelihara aplikasi mobile berbasis React Native dengan fokus pada stabilitas, performa, dan user experience.",
-          "Menangani permasalahan integrasi API termasuk error handling, autentikasi, dan komunikasi data antara mobile app dan backend.",
-          "Berkolaborasi dengan tim backend dan QA dalam pengembangan fitur, pengujian, serta deployment aplikasi ke environment production.",
+          "Developed and maintained React Native mobile applications with a focus on stability, performance, and user experience.",
+          "Handled API integration issues, including error handling, authentication, and data communication between the mobile app and backend.",
+          "Collaborated with backend and QA teams on feature development, testing, and deployment to the production environment.",
         ],
       },
     ],
@@ -71,9 +71,9 @@ export default function experience() {
   return (
     <>
       <Metatags
-        name="Pengalaman Kerja"
-        title="Pengalaman Kerja | Luthfi Aditya"
-        description="Timeline pengalaman kerja dan proyek profesional saya."
+        name="Work Experience"
+        title="Work Experience | Luthfi Aditya"
+        description="A timeline of my work experience and professional projects."
         image={"./letter-a.png"}
       />
 
