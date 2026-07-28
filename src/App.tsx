@@ -224,8 +224,8 @@ function AppContent() {
       </Routes>
 
       <div data-aos="fade-left" className="fixed bottom-10 right-10 z-50">
-        <a className="contact-btn text-[#F5F5F5] font-medium py-2 px-4 md:py-4 md:px-8 rounded-full transition-all duration-300 ease-in-out font-['Space_Grotesk']" href="mailto:luthfi2004aditya@gmail.com" rel="noopener noreferrer"> 
-          Let's Cook Something Great! 
+        <a className="contact-btn text-[#F5F5F5] text-sm md:text-md py-2 px-4 md:py-4 md:px-8 rounded-full transition-all duration-300 ease-in-out font-['Space_Grotesk']" href="mailto:contact@adheetya.my.id" rel="noopener noreferrer"> 
+          Let's Connect<i className="fas fa-paper-plane ml-2"></i>
         </a>
       </div>
 
@@ -233,7 +233,7 @@ function AppContent() {
 
       {/* Footer - THE SMART CHILLER */}
       {shouldShowFooter && (
-        <footer data-aos="fade-up" data-aos-delay="300" className="relative z-10 py-16 bg-[#1E1E1E] border-t border-white/5">
+        <footer className="relative z-10 py-16 bg-[#1E1E1E] border-t border-white/5">
           <div className="container mx-auto px-6">
             {/* Social Links */}
             <div className="flex justify-center space-x-6 mb-8">

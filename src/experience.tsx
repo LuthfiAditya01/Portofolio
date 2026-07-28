@@ -52,9 +52,9 @@ const experienceData: ExperienceYear[] = [
       {
         role: "IT Mobile App Developer",
         company: "Be Management",
-        period: "September 2025 - Present",
+        period: "September 2025 - July 2026",
         location: "Rawa Buntu, Tangerang Selatan (Remote/WFH)",
-        stack: ["React Native", "JavaScript", "Android", "REST API", "Git"],
+        stack: ["React Native", "JavaScript", "Android", "iOS", "Gradle", "Cocoapods", "REST API", "Git"],
         summary: [
           "Developed and maintained React Native mobile applications with a focus on stability, performance, and user experience.",
           "Handled API integration issues, including error handling, authentication, and data communication between the mobile app and backend.",
@@ -91,7 +91,7 @@ export default function experience() {
         <p
           data-aos="fade-up"
           data-aos-delay="400"
-          className="text-center text-[#6B6B6B] mt-4 font-['JetBrains_Mono']"
+          className="text-center text-[#6B6B6B] mt-4 font-['JetBrains_Mono'] mx-8 md:mx-16"
         >
           The timeline of my professional journey, showcasing the roles I've
           held, the companies I've worked with, and the skills I've honed along

@@ -170,7 +170,7 @@ export default function About() {
         image={"./letter-a.png"}
       />
 
-      <div className="relative z-10 pt-24 pb-10">
+      <div className="relative z-10 pt-4 pb-10">
         <div className="container mx-auto px-4">
           <div className="lg:flex w-full items-center justify-center gap-12 mt-20 mb-20">
             {/* <!-- Profile Image --> */}
@@ -180,7 +180,7 @@ export default function About() {
               className="flex justify-center mb-8 lg:mb-0">
               <div className="profile-image max-w-xs md:max-w-sm lg:max-w-md">
                 <img
-                  src="./foto-profil.png"
+                  src="./foto-profil.avif"
                   className="w-full h-auto rounded-lg"
                   alt="Luthfi Aditya Profile"
                   loading="eager"
@@ -196,12 +196,12 @@ export default function About() {
                 data-aos="fade-left"
                 data-aos-delay="400"
                 className="profile-card p-8">
-                <h2 className="text-3xl font-bold gradient-text mb-6">
+                <h2 className="text-2xl md:text-3xl font-bold gradient-text mb-6">
                   <i className="fas fa-hand-peace mr-3"></i>Hello there! ヾ(•ω•`)o
                 </h2>
 
                 <div className="space-y-6 text-slate-200 leading-relaxed">
-                  <p className="text-lg">
+                  <p className="=text-lg">
                     Hi! I'm <span className="font-bold text-blue-400">Luthfi Aditya</span>, a passionate <span className="font-bold text-green-400">Full-Stack Developer</span> specializing in 
                     <span className="font-bold text-green-400"> Web</span> and <span className="font-bold text-purple-400">Mobile Application Development</span>. Currently in my 7th semester at <span className="font-bold text-blue-400">Lampung University</span>, I transform ideas into elegant, user-centric digital solutions.
                   </p>
