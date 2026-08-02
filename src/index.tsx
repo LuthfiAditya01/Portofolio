@@ -37,7 +37,7 @@ export default function Index() {
           <h1 className="hero-headline mb-6">NO NOISE.<br/>JUST INSIGHTS.</h1>
           <p className="hero-subheadline mb-8">
             Breaking down complex ideas into bite-sized vibes.<br/>
-            <span className="text-[#A0A0A0]">Web & Mobile Developer from Indonesia.</span>
+            <span className="text-[#A0A0A0]">Junior Software Engineer from Indonesia.</span>
           </p>
           <div className="flex flex-wrap gap-4 mt-8">
             <Link

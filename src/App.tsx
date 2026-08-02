@@ -104,7 +104,7 @@ function AppContent() {
         data-aos="fade-down"
         className="fixed w-full top-0 z-50">
         <Metatags
-          title="Luthfi Aditya | Developer"
+          title="Luthfi Aditya | Software Engineer"
           description="No noise. Just insights."
           name="Luthfi Aditya Portfolio"
           image={"./letter-l.png"}

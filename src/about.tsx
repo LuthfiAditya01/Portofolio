@@ -165,8 +165,8 @@ export default function About() {
   return (
     <>
       <Metatags
-        name="About me?"
-        title="About me?"
+        name="About Adheet?"
+        title="About Adheet?"
         image={"./letter-a.png"}
       />
 
@@ -202,8 +202,8 @@ export default function About() {
 
                 <div className="space-y-6 text-slate-200 leading-relaxed">
                   <p className="=text-lg">
-                    Hi! I'm <span className="font-bold text-blue-400">Luthfi Aditya</span>, a passionate <span className="font-bold text-green-400">Full-Stack Developer</span> specializing in 
-                    <span className="font-bold text-green-400"> Web</span> and <span className="font-bold text-purple-400">Mobile Application Development</span>. Currently in my 7th semester at <span className="font-bold text-blue-400">Lampung University</span>, I transform ideas into elegant, user-centric digital solutions.
+                    Hi! I'm <span className="font-bold text-blue-400">Luthfi Aditya</span>, a passionate <span className="font-bold text-green-400">Software Engineer</span> specializing in 
+                    <span className="font-bold text-green-400"> Web</span> and <span className="font-bold text-purple-400">Mobile Application Development</span>. Currently in my last academic year at <span className="font-bold text-blue-400">Lampung University</span>, I transform ideas into elegant, user-centric digital solutions.
                   </p>
 
                   <p className="text-lg">

@@ -22,7 +22,7 @@ const experienceData: ExperienceYear[] = [
       {
         role: "IT Staff Intern",
         company: "Badan Pusat Statistik Kota Bandar Lampung",
-        period: "June 2025 - August 2025",
+        period: "June 2025 - August 2025 (3 Months)",
         location: "Bandar Lampung, Indonesia",
         stack: [
           "React",
@@ -43,7 +43,7 @@ const experienceData: ExperienceYear[] = [
       {
         role: "Freelance Frontend Developer",
         company: "UMKM Lokal Lampung",
-        period: "September 2025 - December 2025",
+        period: "August 2025 - Now",
         location: "Remote",
         stack: ["React.js", "Next.js", "Vercel", "Firebase Firestore", "Firebase Authentication", "Google Search Console"],
         summary:
@@ -52,7 +52,7 @@ const experienceData: ExperienceYear[] = [
       {
         role: "IT Mobile App Developer",
         company: "Be Management",
-        period: "September 2025 - July 2026",
+        period: "September 2025 - July 2026 (11 Months)",
         location: "Rawa Buntu, Tangerang Selatan (Remote/WFH)",
         stack: ["React Native", "JavaScript", "Android", "iOS", "Gradle", "Cocoapods", "REST API", "Git"],
         summary: [
@@ -71,8 +71,8 @@ export default function experience() {
   return (
     <>
       <Metatags
-        name="Work Experience"
-        title="Work Experience | Luthfi Aditya"
+        name="Adheet Work Experience? | Luthfi Aditya"
+        title="Adheet's Work Experience?"
         description="A timeline of my work experience and professional projects."
         image={"./letter-a.png"}
       />

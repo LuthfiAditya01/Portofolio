@@ -5,7 +5,7 @@ import Metatags from "./utils/metatags";
 export default function project() {
   return (
     <>
-      <Metatags name="Welcome to My Lab" title="Welcome to My Lab" image={"./letter-a.png"} />
+      <Metatags name="Adheet's Lab | Luthfi Aditya" title="Adheet's Lab" image={"./letter-a.png"} />
       <section id="hero" className="mt-24 pt-8">
         <h1
           data-aos="fade-down"
