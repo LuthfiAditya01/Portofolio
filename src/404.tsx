@@ -1,23 +1,23 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import AOS from "aos";
 
 export default function NotFound() {
-
-  useEffect(() => {
-    AOS.refresh();
-  }, []);
-
   return (
-    <div data-aos="fade-up" data-aos-delay="500" className="min-h-screen flex flex-col justify-center items-center text-center">
-      <h1 className="text-4xl font-bold mb-4">There is nothing here</h1>
-      <h2 className="text-2xl font-bold mb-8">
-        It's only a <span className="font-black">Void of Emptiness...</span>
-      </h2>
+    <div className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-[#171719] text-[#F4F1E9] neo-grid-bg">
+      <div className="font-['JetBrains_Mono'] text-[#FF3B45] text-xs font-bold mb-3 border border-[#FF3B45]/40 bg-[#242429] px-3 py-1">
+        ERROR // 404: RESOURCE_NOT_FOUND
+      </div>
+      <h1 className="font-['Space_Grotesk'] text-4xl sm:text-6xl font-bold uppercase mb-4 text-[#F4F1E9]">
+        SIGNAL LOST <span className="text-[#FF3B45]">//</span>
+      </h1>
+      <p className="font-['Inter'] text-[#85858D] text-sm sm:text-base max-w-md mb-8 leading-relaxed">
+        The sector you requested does not exist or has been relocated within the NEO//PLAY system directory.
+      </p>
       <Link
-        to={"/"}
-        className="hero-btn px-6 py-3 bg-sky-500 rounded-lg hover:bg-sky-600 transition duration-300">
-        Follow me...
+        to="/"
+        className="btn-signal text-xs py-3 px-6"
+      >
+        <span>RETURN TO BASE</span>
+        <span>→</span>
       </Link>
     </div>
   );
